@@ -1,0 +1,27 @@
+
+RAG:
+    Give a model context of this vector database,
+    allow questions like "I like the aftershock but its too sour"
+    -> recommend strawberry + raspberry
+    "I want it more sour"
+        -> recommend adding a sour shot
+    What flavors are in an aftershock?
+    Whats the build called that has these flavors?
+    
+Create a simulated database of order histories
+    Recommend toppings and drink modifiers based on those histories via the ingredient parser output.
+    -> hazelnut truffle logs soft top in order history
+
+
+Vector Deltas are another option
+Get drink vector,
+ask LLM to generate a vector delta based on request,
+Query nearest neighbors,
+get nearest neighbors objects,
+prompt.
+
+Additionally include drink knowledge in the final LLM 
+so it can offer things like modifiers to make things 
+sweet cream or sour (they aren't represented in the
+flavor vector space)
+The LLM generating the delta needs to know your vector schema explicitly — the column names, and crucially the scale. If sweet ranges 0–1 and the drink is already at 0.7, a +0.5 delta overshoots into a clamped or nonsensical region. You'd want to either pass the current drink's vector values to the delta-generating LLM so it can generate a contextually reasonable shift, or normalize post-aggregation before querying.
