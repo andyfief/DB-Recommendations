@@ -1,0 +1,333 @@
+[
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "americano is a coffee",
+        "triggers": ["americano"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "latte is a coffee",
+        "triggers": ["latte"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "protein_latte is a coffee",
+        "triggers": ["protein_latte"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "breve is a coffee",
+        "triggers": ["breve"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "mocha is a coffee",
+        "triggers": ["mocha"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "cold brew is a coffee",
+        "triggers": ["cold_brew"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "nitro is a coffee",
+        "triggers": ["nitro"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "nitro_cold_brew is a coffee",
+        "triggers": ["nitro_cold_brew"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "dub_shot is a coffee",
+        "triggers": ["dub_shot"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "carburetor is a coffee",
+        "triggers": ["carburetor"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "carburAtor is a coffee",
+        "triggers": ["carburator"],
+        "results": ["coffee"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "caramel is a sauce",
+        "triggers": ["caramel"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "chocolate is a sauce",
+        "triggers": ["dark_chocolate"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "white_chocolate is a sauce",
+        "triggers": ["white_chocolate"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "pumpkin is a sauce",
+        "triggers": ["pumpkin"],
+        "results": ["sauce"]
+    },
+
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_caramel is a sauce",
+        "triggers": ["sugar_free_caramel"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_chocolate is a sauce",
+        "triggers": ["sugar_free_chocolate"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_white_chocolate is a sauce",
+        "triggers": ["sugar_free_white_chocolate"],
+        "results": ["sauce"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_caramel gets sugar_free",
+        "triggers": ["sugar_free_caramel"],
+        "results": ["sugar_free"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_chocolate gets sugar_free",
+        "triggers": ["sugar_free_chocolate"],
+        "results": ["sugar_free"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "sugar_free_white_chocolate gets sugar_free",
+        "triggers": ["sugar_free_white_chocolate"],
+        "results": ["sugar_free"]
+    },
+
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "zero_sugar_added is sugar_free",
+        "triggers": ["zero_sugar_added"],
+        "results": ["sugar_free"]
+    },
+
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hazelnut truffle is a mocha",
+        "triggers": ["hazelnut_truffle"],
+        "results": ["mocha"]
+    },
+    {
+        "type": "classify",
+        "priority": 90,
+        "description": "caramelizer is a mocha",
+        "triggers": ["caramelizer"],
+        "results": ["mocha"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "iced kicker is a breve",
+        "triggers": ["kicker", "iced"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hot kicker is a breve",
+        "triggers": ["kicker", "hot"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "iced golden eagle is a breve",
+        "triggers": ["golden_eagle", "iced"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hot golden eagle is a breve",
+        "triggers": ["golden_eagle", "hot"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "iced 911 is a breve",
+        "triggers": ["911", "iced"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hot 911 is a breve",
+        "triggers": ["911", "hot"],
+        "results": ["breve"]
+    },
+
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "iced annihilator is a breve",
+        "triggers": ["annihilator", "iced"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hot annihilator is a breve",
+        "triggers": ["annihilator", "hot"],
+        "results": ["breve"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "cocomo is a mocha",
+        "triggers": ["cocomo"],
+        "results": ["mocha"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "double_torture is a mocha",
+        "triggers": ["double_torture"],
+        "results": ["mocha"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "double_chocolate_mocha is a mocha",
+        "triggers": ["double_chocolate_mocha"],
+        "results": ["mocha"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "chocolate_milk_drink is an iced_milk",
+        "triggers": ["chocolate_milk_drink"],
+        "results": ["iced_milk"]
+    },
+
+
+
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "hot christmas morning gets kickme milk",
+        "triggers": ["christmas_morning", "hot"],
+        "results": ["kickme_milk"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "iced christmas morning is gets kickme milk",
+        "triggers": ["christmas_morning", "iced"],
+        "results": ["kickme_milk"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "strawberry_smoothie is a smoothie",
+        "triggers": ["strawberry_smoothie"],
+        "results": ["smoothie"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "green_apple_smoothie is a smoothie",
+        "triggers": ["green_apple_smoothie"],
+        "results": ["smoothie"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "mango_smoothie is a smoothie",
+        "triggers": ["mango_smoothie"],
+        "results": ["smoothie"]
+    },
+
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "green_tea is a tea",
+        "triggers": ["green_tea"],
+        "results": ["tea"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "black_tea is a tea",
+        "triggers": ["black_tea"],
+        "results": ["tea"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "matcha_latte is a matcha",
+        "triggers": ["matcha_latte"],
+        "results": ["matcha"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "dutch_shake is a shake",
+        "triggers": ["dutch_shake"],
+        "results": ["shake"]
+    },
+    {
+        "type": "classify",
+        "priority": 100,
+        "description": "dutch_freeze is a freeze",
+        "triggers": ["dutch_freeze"],
+        "results": ["freeze"]
+    }
+    
+]

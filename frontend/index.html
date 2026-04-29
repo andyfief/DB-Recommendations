@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DrinkAdvisor</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f0eb;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #3b1f0a;
+    }
+
+    #chat-container {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    #chat-log {
+      background: #fff;
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 320px;
+      max-height: 60vh;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .message {
+      max-width: 80%;
+      padding: 10px 14px;
+      border-radius: 18px;
+      line-height: 1.45;
+      font-size: 0.95rem;
+      white-space: pre-wrap;
+    }
+
+    .message.user {
+      align-self: flex-end;
+      background: #3b82f6;
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+
+    .message.bot {
+      align-self: flex-start;
+      background: #f0ebe5;
+      color: #222;
+      border-bottom-left-radius: 4px;
+    }
+
+    .message.error {
+      align-self: flex-start;
+      background: #fee2e2;
+      color: #991b1b;
+      border-bottom-left-radius: 4px;
+    }
+
+    #spinner {
+      display: none;
+      align-self: flex-start;
+      font-size: 0.85rem;
+      color: #888;
+      padding: 4px 8px;
+    }
+
+    #input-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    #user-input {
+      flex: 1;
+      border: 1px solid #d1c5ba;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.95rem;
+      resize: none;
+      height: 52px;
+      background: #fff;
+      outline: none;
+      font-family: inherit;
+    }
+
+    #user-input:focus {
+      border-color: #3b82f6;
+    }
+
+    #submit-btn {
+      background: #3b82f6;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0 20px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+
+    #submit-btn:hover:not(:disabled) {
+      background: #2563eb;
+    }
+
+    #submit-btn:disabled {
+      background: #93c5fd;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>DrinkAdvisor ☕</h1>
+  <div id="chat-container">
+    <div id="chat-log">
+      <div class="message bot">
+        Ask me about a Dutch Bros drink — I can suggest similar ones or help you customize it.
+        Try: "What's similar to a Golden Eagle?" or "I want the Annihilator but less chocolatey."
+      </div>
+    </div>
+    <div id="spinner">Thinking…</div>
+    <div id="input-row">
+      <textarea id="user-input" placeholder="Ask about a drink…" rows="1"></textarea>
+      <button id="submit-btn">Send</button>
+    </div>
+  </div>
+
+  <script type="module" src="src/main.ts"></script>
+</body>
+</html>

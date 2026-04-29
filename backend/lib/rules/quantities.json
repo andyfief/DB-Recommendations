@@ -1,0 +1,290 @@
+[
+
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "kids coffee gets 2 shots",
+        "triggers": ["kids", "coffee"],
+        "payload": {
+            "target": "shots",
+            "value": 2,
+            "mode": "set"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small coffee gets 2 shots",
+        "triggers": ["small", "coffee"],
+        "payload": {
+            "target": "shots",
+            "value": 2,
+            "mode": "set"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium coffee gets 2 shots",
+        "triggers": ["medium", "coffee"],
+        "payload": {
+            "target": "shots",
+            "value": 2,
+            "mode": "set"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large coffee gets 4 shots",
+        "triggers": ["large", "coffee"],
+        "payload": {
+            "target": "shots",
+            "value": 4,
+            "mode": "set"
+        }
+    },
+
+
+
+
+
+
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "kids drinks get 1 scoop",
+        "triggers": ["kids"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small drinks in 1111 profile get 1 scoop",
+        "triggers": ["small"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1111"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium drinks in 1111 profile get 1 scoop",
+        "triggers": ["medium"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1111"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large drinks in 1111 profile get 1 scoop",
+        "triggers": ["large"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1111"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small drinks in 1112 profile get 1 scoop",
+        "triggers": ["small"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1112"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium drinks in 1112 profile get 1 scoop",
+        "triggers": ["medium"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1112"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large drinks in 1112 profile get 2 scoops",
+        "triggers": ["large"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "1112"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small drinks in 1123 profile get 1 scoop",
+        "triggers": ["small"],
+        "payload": {
+            "target": "scoops",
+            "value": 1,
+            "mode": "set",
+            "requires_profile": "1123"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium drinks in 1123 profile get 2 scoops",
+        "triggers": ["medium"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "1123"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large drinks in 1123 profile get 3 scoops",
+        "triggers": ["large"],
+        "payload": {
+            "target": "scoops",
+            "value": 3,
+            "mode": "set",
+            "requires_profile": "1123"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small drinks in 1234 profile get 2 scoops",
+        "triggers": ["small"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "1234"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium drinks in 1234 profile get 3 scoops",
+        "triggers": ["medium"],
+        "payload": {
+            "target": "scoops",
+            "value": 3,
+            "mode": "set",
+            "requires_profile": "1234"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large drinks in 1234 profile get 4 scoops",
+        "triggers": ["large"],
+        "payload": {
+            "target": "scoops",
+            "value": 4,
+            "mode": "set",
+            "requires_profile": "1234"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "kids drinks in 2222 profile get 2 scoops",
+        "triggers": ["kids"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "2222"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "small drinks in 2222 profile get 2 scoops",
+        "triggers": ["small"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "2222"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "medium drinks in 2222 profile get 2 scoops",
+        "triggers": ["medium"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "2222"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 90,
+        "description": "large drinks in 2222 profile get 2 scoops",
+        "triggers": ["large"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "requires_profile": "2222"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 200,
+        "description": "sugar free sauce with coffee = 2 scoops",
+        "triggers": ["coffee", "sugar_free", "sauce"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set",
+            "ignore_on": ["carburetor", "carburator"]
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 200,
+        "description": "sugar free sauce with cocoa = 2 scoops",
+        "triggers": ["hot_cocoa", "sugar_free", "sauce"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set"
+        }
+    },
+    {
+        "type": "quantity",
+        "priority": 200,
+        "description": "sugar free sauce with steamer = 2 scoops",
+        "triggers": ["steamer", "sugar_free", "sauce"],
+        "payload": {
+            "target": "scoops",
+            "value": 2,
+            "mode": "set"
+        }
+    }
+]
