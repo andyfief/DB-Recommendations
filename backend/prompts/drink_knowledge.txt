@@ -1,0 +1,100 @@
+# TODO: Replace this placeholder with live data derived from DrinkBuilder/rules/assignments.json and DrinkBuilder/data/ingredients.csv
+
+AVAILABLE FLAVOR DIMENSIONS
+Each flavor maps to a float value 0.0–1.0 representing its intensity in the drink.
+A value of "default" means the standard proportion for that drink.
+
+Common flavors:
+- vanilla (sweet, creamy, classic)
+- caramel (sweet, rich, buttery)
+- chocolate (deep, rich, cocoa)
+- white_chocolate (sweet, creamy, mild)
+- mocha (chocolate + coffee combined)
+- hazelnut (nutty, sweet)
+- irish_cream (creamy, slightly boozy-flavored)
+- coconut (tropical, sweet)
+- strawberry (fruity, bright, sweet)
+- peach (soft fruit, sweet)
+- raspberry / red_raspberry (tart, bright berry)
+- blue_raspberry (sweet-tart, candy-like)
+- blackberry (dark berry, tart-sweet)
+- mango (tropical, sweet, bright)
+- pineapple (tropical, tart)
+- watermelon (light, sweet, melon)
+- passion_fruit (tropical, tart)
+- orange (citrus, bright)
+- lime (citrus, tart)
+- lemon_concentrate (sour, citrus)
+- peppermint (cool, minty)
+- cinnamon (warm, spiced)
+- salted_caramel (sweet + salty, caramel base)
+- almond_orgeat (nutty, sweet)
+- lavender (floral, light)
+- honey (floral, sweet)
+- cane_sugar (pure sweetness)
+- tigers_blood (strawberry + coconut + watermelon blend)
+- golden_eagle (caramel + butter + vanilla blend)
+- electric_berry (mixed berry blend)
+
+Sugar-free variants exist for many of the above (prefix: sugar_free_).
+Example: sugar_free_vanilla, sugar_free_caramel, sugar_free_chocolate
+
+AVAILABLE TOPPINGS
+Each topping maps to a float representing quantity (1.0 = one standard serving, 2.0 = double, etc.)
+Boolean-style toppings are present (1.0) or absent (0.0 / omitted).
+
+- whip_cream (whipped cream on top)
+- soft_top (sweet cream cold foam)
+- sweet_cream (cold sweet cream, added to drink body)
+- caramel_drizzle
+- chocolate_drizzle
+- white_chocolate_drizzle
+- honey_drizzle
+- cookie_butter_drizzle
+- cinnamon_sprinks (cinnamon sprinkles on top)
+- birthday_cake_sprinks
+- raw_sugar_sprinks
+- strawberry_poppin_boba (popping boba, strawberry flavor)
+- blue_raspberry_poppin_boba
+- strawberry_float (strawberry syrup float on top)
+- coconut_float
+- blackberry_float
+- peach_float
+- cherry_float
+- pomegranate_float
+- raspberry_float / red_raspberry_float
+- lavender_float
+- watermelon_float
+- mango_float
+- sour_shot (tart shot, goes in drink, makes it sour)
+
+AVAILABLE MILK TYPES (milk field — replaces base milk)
+- 2_percent (default milk)
+- whole_milk
+- nonfat
+- oat_milk
+- almond_milk
+- coconut_milk
+- protein_milk
+- kickme_milk (Dutch Bros proprietary sweet cream milk)
+
+AVAILABLE BASES (base field)
+- cold_brew
+- nitro_cold_brew
+- rebel_concentrate (Dutch Bros energy drink base)
+- lemonade
+- soda
+- chai
+- black_tea
+- green_tea
+
+AVAILABLE COFFEE TYPES (coffee field)
+- regular_coffee
+- white_coffee
+- decaf
+
+NOTES:
+- Do not invent ingredients outside this list.
+- When removing a flavor, omit it from the flavors dict entirely.
+- When removing a topping, omit it from the toppings dict entirely.
+- When swapping milk, replace the milk list with the new milk type only.

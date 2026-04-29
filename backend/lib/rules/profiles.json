@@ -1,0 +1,354 @@
+[
+    {
+        "type": "profile",
+        "priority": 100,
+        "description": "iced rebel gets 1112 flavor profile",
+        "triggers": ["iced", "rebel"],
+        "payload": {
+            "profile": "1112",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 100,
+        "description": "can blended rebel gets 1234 flavor profile",
+        "triggers": ["can_blended", "rebel"],
+        "payload": {
+            "profile": "1234",
+            "mode": "max"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 100,
+        "description": "sf blended rebel gets 1234 flavor profile",
+        "triggers": ["sugar_free", "blended", "rebel"],
+        "payload": {
+            "profile": "1234",
+            "mode": "max"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 100,
+        "description": "blended rebel gets 1123 flavor profile",
+        "triggers": ["blended", "rebel"],
+        "payload": {
+            "profile": "1123",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "freeze gets 1111 flavor profile",
+        "triggers": ["freeze"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "lemonade gets 1111 profile",
+        "triggers": ["lemonade"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "iced tea gets 1123 flavor profile",
+        "triggers": ["iced", "tea"],
+        "payload": {
+            "profile": "1123",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "hot tea gets 1111 flavor profile",
+        "triggers": ["hot", "tea"],
+        "payload": {
+            "profile": "1111",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "blended tea gets 1234 flavor profile",
+        "triggers": ["blended", "tea"],
+        "payload": {
+            "profile": "1234",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "chai gets 1111 flavor profile",
+        "triggers": ["chai"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "nitro gets 1111 flavor profile",
+        "triggers": ["nitro"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "nitro_cold_brew gets 1111 flavor profile",
+        "triggers": ["nitro_cold_brew"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "cold brew gets 1111 flavor profile",
+        "triggers": ["cold_brew"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "dub shot gets 1111 profile",
+        "triggers": ["dub_shot"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "shake gets 1234 flavor profile",
+        "triggers": ["shake"],
+        "payload": {
+            "profile": "1234",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "soda gets 1234 flavor profile",
+        "triggers": ["soda"],
+        "payload": {
+            "profile": "1234",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "fizz gets 1234 flavor profile",
+        "triggers": ["fizz"],
+        "payload": {
+            "profile": "1234",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "matcha gets 1111 flavor profile",
+        "triggers": ["matcha"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },{
+        "type": "profile",
+        "priority": 90,
+        "description": "matcha_lemonade gets 1111 flavor profile",
+        "triggers": ["matcha_lemonade"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "steamer gets 1111 flavor profile",
+        "triggers": ["steamer"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "hot_cocoa gets 1111 flavor profile",
+        "triggers": ["hot_cocoa"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "dutch2o gets 1111 flavor profile",
+        "triggers": ["flavored_dutch2o"],
+        "payload": {
+            "profile": "1234",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "milk gets 1111 flavor profile",
+        "triggers": ["iced_milk"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "smoothie gets 1111 flavor profile",
+        "triggers": ["smoothie"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "coffee gets 1111 flavor profile",
+        "triggers": ["coffee"],
+        "payload": {
+            "profile": "1111",
+            "mode": "set"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "iced 911 gets 2222 flavor profile",
+        "triggers": ["iced", "911"],
+        "payload": {
+            "profile": "2222",
+            "mode": "max"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "hot 911 gets 2222 flavor profile",
+        "triggers": ["hot", "911"],
+        "payload": {
+            "profile": "2222",
+            "mode": "max"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "sugar free 911 gets 1111 flavor profile",
+        "triggers": ["sugar_free", "iced", "911"],
+        "payload": {
+            "profile": "1111",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 90,
+        "description": "sugar free 911 gets 1111 flavor profile",
+        "triggers": ["sugar_free", "hot", "911"],
+        "payload": {
+            "profile": "1111",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "cut with lemonade reduces to minimum profile",
+        "triggers": ["cut_with_lemonade"],
+        "payload": {
+            "profile": "1111",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "cut with black tea reduces to minimum profile",
+        "triggers": ["cut_with_black_tea"],
+        "payload": {
+            "profile": "1123",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "cut with green tea reduces to minimum profile",
+        "triggers": ["cut_with_green_tea"],
+        "payload": {
+            "profile": "1123",
+            "mode": "min"
+        }
+    },
+     {
+        "type": "profile",
+        "priority": 200,
+        "description": "cut with soda reduces to minimum profile",
+        "triggers": ["cut_with_soda"],
+        "payload": {
+            "profile": "1234",
+            "mode": "min"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "carburetor gets 1234 profile - use max present profile - (carburE with an E - duplicate rules intentional)",
+        "triggers": ["carburetor"],
+        "payload": {
+            "profile": "1234",
+            "mode": "max"
+        }
+    },
+    {
+        "type": "profile",
+        "priority": 200,
+        "description": "carburator gets 1234 profile - use max present profile - (carburA with an A - duplicate rules intentional)",
+        "triggers": ["carburator"],
+        "payload": {
+            "profile": "1234",
+            "mode": "max"
+        }
+    }
+    
+
+    
+]

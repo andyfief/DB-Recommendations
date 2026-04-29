@@ -1,0 +1,5291 @@
+[
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kids gets kids size",
+    "triggers": ["kids"],
+    "payload": { "role": "size", "items": ["kids"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small gets small size",
+    "triggers": ["small"],
+    "payload": { "role": "size", "items": ["small"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium gets medium size",
+    "triggers": ["medium"],
+    "payload": { "role": "size", "items": ["medium"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large gets large size",
+    "triggers": ["large"],
+    "payload": { "role": "size", "items": ["large"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "8oz gets 8oz size",
+    "triggers": ["8oz"],
+    "payload": { "role": "size", "items": ["8oz"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "12oz gets 12oz size",
+    "triggers": ["12oz"],
+    "payload": { "role": "size", "items": ["12oz"]}
+  },
+
+  
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot gets hot style",
+    "triggers": ["hot"],
+    "payload": { "role": "style", "items": ["hot"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended gets blended style",
+    "triggers": ["blended"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced gets iced style",
+    "triggers": ["iced"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cold_brew gets iced style",
+    "triggers": ["cold_brew"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "nitro_cold_brew gets iced style",
+    "triggers": ["nitro_cold_brew"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "toasted_cold_brew gets hot style",
+    "triggers": ["toasted_cold_brew"],
+    "payload": { "role": "style", "items": ["hot"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "toasted_nitro_cold_brew gets hot style",
+    "triggers": ["toasted_nitro_cold_brew"],
+    "payload": { "role": "style", "items": ["hot"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "freeze gets blended style",
+    "triggers": ["freeze"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shake gets blended style",
+    "triggers": ["shake"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "ice water gets iced style",
+    "triggers": ["ice_water"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "flavored_dutch2o gets iced style",
+    "triggers": ["flavored_dutch2o"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "smoothie gets blended style",
+    "triggers": ["smoothie"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetor gets blended style",
+    "triggers": ["carburetor"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtor gets blended style",
+    "triggers": ["carburator"],
+    "payload": { "role": "style", "items": ["blended"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoa gets hot style",
+    "triggers": ["hot_cocoa"],
+    "payload": { "role": "style", "items": ["hot"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamer gets hot style",
+    "triggers": ["steamer"],
+    "payload": { "role": "style", "items": ["hot"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "chocolate_milk_drink gets iced style",
+    "triggers": ["chocolate_milk_drink"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk gets iced style",
+    "triggers": ["iced_milk"],
+    "payload": { "role": "style", "items": ["iced"]}
+  },
+
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cocomo gets coconut",
+    "triggers": [
+      "cocomo"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kicker gets irish cream",
+    "triggers": [
+      "kicker"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "golden eagle gets golden eagle",
+    "triggers": [
+      "golden_eagle"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "golden_eagle_syrup"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free golden eagles get sf caramel and vanilla",
+    "triggers": [
+      "golden_eagle",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "caramel",
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "golden eagle gets caramel drizzle",
+    "triggers": [
+      "golden_eagle"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "caramel_drizzle"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "annihilator gets chocolate mac",
+    "triggers": [
+      "annihilator"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "911 gets irish cream",
+    "triggers": [
+      "911"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "caramelizer gets caramel",
+    "triggers": [
+      "caramelizer"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "double torture gets vanilla",
+    "triggers": [
+      "double_torture"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla"
+      ]
+    }
+  },
+
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "lite ice gets lite_ice",
+    "triggers": [
+      "lite_ice"
+    ],
+    "payload": {
+      "role": "mix_line",
+      "items": [
+        "lite_ice"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cold pour gets cold_pour",
+    "triggers": [
+      "cold_pour"
+    ],
+    "payload": {
+      "role": "mix_line",
+      "items": [
+        "cold_pour"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "extra chai gets extra_chai",
+    "triggers": [
+      "extra_chai"
+    ],
+    "payload": {
+      "role": "mix_line",
+      "items": [
+        "extra_chai"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced sugar free rebel gets rebel can",
+    "triggers": [
+      "rebel",
+      "iced",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "sf_rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free rebel gets sf rebel can",
+    "triggers": [
+      "sugar_free_rebel"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "sf_rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced rebel gets rebel can",
+    "triggers": [
+      "rebel",
+      "iced"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended rebel gets rebel concentrate",
+    "triggers": [
+      "rebel",
+      "blended"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "rebel_concentrate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "can blended rebel gets rebel can",
+    "triggers": [
+      "rebel",
+      "can_blended"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf can blended rebel gets sf rebel can",
+    "triggers": [
+      "rebel",
+      "can_blended",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "sf_rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf blended rebel gets rebel can",
+    "triggers": [
+      "sugar_free",
+      "rebel",
+      "blended"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "sf_rebel_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced lemonade gets lemonade",
+    "triggers": [
+      "iced",
+      "lemonade"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "lemonade"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended lemonade gets blended lemonade",
+    "triggers": [
+      "blended",
+      "lemonade"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "blended_lemonade"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cold brew gets cold brew",
+    "triggers": [
+      "cold_brew"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "cold_brew"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "nitro cold brew gets nitro cold brew can",
+    "triggers": [
+      "nitro_cold_brew"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "nitro_cb_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "soda gets cool can",
+    "triggers": [
+      "soda"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "cool_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "fizz gets cool can",
+    "triggers": [
+      "fizz"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "cool_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced matcha gets matcha premix",
+    "triggers": [
+      "iced",
+      "matcha"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "matcha_premix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced matcha gets 2_percent",
+    "triggers": [
+      "iced",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot matcha gets 2_percent",
+    "triggers": [
+      "hot",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended matcha gets frost mix",
+    "triggers": [
+      "blended",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "ice_cream_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended matcha_lemonade gets blended lemonade",
+    "triggers": [
+      "blended",
+      "matcha_lemonade"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "blended lemonade"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "freeze gets freeze",
+    "triggers": [
+      "freeze"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "freeze"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced green tea gets green tea",
+    "triggers": [
+      "iced",
+      "tea",
+      "green_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "green_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended green tea gets green tea",
+    "triggers": [
+      "blended",
+      "tea",
+      "green_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "green_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced black tea gets black tea",
+    "triggers": [
+      "iced",
+      "tea",
+      "black_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "black_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended black tea gets black tea",
+    "triggers": [
+      "blended",
+      "tea",
+      "black_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "black_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot tea gets water",
+    "triggers": [
+      "hot",
+      "tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "water"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shake gets ice_cream_mix",
+    "triggers": [
+      "shake"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "ice_cream_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "strawberry smoothie gets strawberry smoothie mix",
+    "triggers": [
+      "strawberry_smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "strawberry_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mango smoothie gets mango smoothie mix",
+    "triggers": [
+      "mango_smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "mango_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "green apple smoothie gets green apple smoothie mix",
+    "triggers": [
+      "green_apple_smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "apple_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "strawberry_smoothie_mix in a smoothie gets strawberry smoothie mix as a base",
+    "triggers": [
+      "strawberry_smoothie_mix",
+      "smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "strawberry_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mango smoothie mix in a smoothie gets mango smoothie mix as a base",
+    "triggers": [
+      "mango_smoothie_mix",
+      "smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "mango_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "green apple smoothie mix in a smoothie gets green apple smoothie mix as a base",
+    "triggers": [
+      "green_apple_smoothie",
+      "smoothie"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "apple_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "fizz gets lemon",
+    "triggers": [
+      "fizz"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lemon_concentrate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with black tea gets black tea",
+    "triggers": [
+      "cut_with_black_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "black_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with green tea gets green tea",
+    "triggers": [
+      "iced",
+      "tea",
+      "cut_with_green_tea"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "green_tea"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with lemonade gets lemonade",
+    "triggers": [
+      "cut_with_lemonade"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "lemonade"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with soda gets soda",
+    "triggers": [
+      "cut_with_soda"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "cool_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with fizz gets soda",
+    "triggers": [
+      "cut_with_fizz"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "cool_can"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cut with fizz gets lemon",
+    "triggers": [
+      "cut_with_fizz"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lemon_concentrate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced chai gets chai",
+    "triggers": [
+      "iced",
+      "chai"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "chai"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced chai gets 2 percent",
+    "triggers": [
+      "iced",
+      "chai"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot chai gets chai",
+    "triggers": [
+      "hot",
+      "chai"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "chai"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot chai gets 2 percent",
+    "triggers": [
+      "hot",
+      "chai"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended chai gets chai",
+    "triggers": [
+      "blended",
+      "chai"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "chai"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blended chai gets frost mix",
+    "triggers": [
+      "blended",
+      "chai"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "ice_cream_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced breve gets kickme",
+    "triggers": [
+      "iced",
+      "breve"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot breve gets kickme",
+    "triggers": [
+      "hot",
+      "breve"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced mocha gets chocolate milk",
+    "triggers": [
+      "iced",
+      "mocha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot mocha gets chocolate milk",
+    "triggers": [
+      "hot",
+      "mocha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced latte gets 2_percent",
+    "triggers": [
+      "iced",
+      "latte"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot latte gets 2_percent",
+    "triggers": [
+      "hot",
+      "latte"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "americano gets water",
+    "triggers": [
+      "americano"
+    ],
+    "payload": {
+      "role": "base",
+      "items": [
+        "water"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot cocoa gets chocolate milk",
+    "triggers": [
+      "hot_cocoa"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamer gets 2 percent milk",
+    "triggers": [
+      "steamer"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free mochas get kickme_milk",
+    "triggers": [
+      "mocha",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "protein_latte gets protein milk",
+    "triggers": [
+      "protein_latte"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "protein_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with oat milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with almond milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with coconut milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with kickme milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with protein milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with nonfat milk get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with skinny get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "skinny"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with 2 percent get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "2_percent"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mochas with ice cream mix get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "ice_cream_mix"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with oat milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with almond milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with coconut milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with kickme milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with protein milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with nonfat milk get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with skinny get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "skinny"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hot_cocoas with 2 percent get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "2_percent"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with oat milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with almond milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with coconut milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with kickme milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with protein milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with nonfat milk get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with skinny get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "skinny"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "steamers with 2 percent get chocolate sauce",
+    "triggers": [
+      "steamer",
+      "2_percent"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free mochas get chocolate sauce",
+    "triggers": [
+      "mocha",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free cocoas get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free steamers get chocolate sauce",
+    "triggers": [
+      "hot_cocoa",
+      "sugar_free"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "coffee gets coffee",
+    "triggers": [
+      "coffee"
+    ],
+    "payload": {
+      "role": "coffee",
+      "items": [
+        "regular_coffee"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha carburators get chocolate",
+    "triggers": [
+      "carburator",
+      "mocha"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha carburEtors get chocolate - duplicate rules intentional",
+    "triggers": [
+      "carburetor",
+      "mocha"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha carburators get chocolate milk",
+    "triggers": [
+      "carburator",
+      "mocha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha carburEtors get chocolate milk - duplicate rules intentional",
+    "triggers": [
+      "carburetor",
+      "mocha"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with kickme get kickme as a base",
+    "triggers": [
+      "carburetor",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with kickme get kickme as a base",
+    "triggers": [
+      "carburator",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with oat milk get oat milk as a base",
+    "triggers": [
+      "carburetor",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "oat_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with oat_milk get oat_milk as a base",
+    "triggers": [
+      "carburator",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "oat_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with almond_milk get almond_milk as a base",
+    "triggers": [
+      "carburetor",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "almond_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with oat_milk get almond_milk as a base",
+    "triggers": [
+      "carburator",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "almond_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with coconut_milk get coconut_milk as a base",
+    "triggers": [
+      "carburetor",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "coconut_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with oat_milk get coconut_milk as a base",
+    "triggers": [
+      "carburator",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "coconut_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with nonfat get nonfat as a base",
+    "triggers": [
+      "carburetor",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "nonfat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with oat_milk get nonfat as a base",
+    "triggers": [
+      "carburator",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "nonfat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with skinny get nonfat as a base",
+    "triggers": [
+      "carburetor",
+      "skinny"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "nonfat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with skinny get nonfat as a base",
+    "triggers": [
+      "carburator",
+      "skinny"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "nonfat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburetors with protein_milk get protein_milk as a base",
+    "triggers": [
+      "carburetor",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "protein_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "carburAtors with protein_milk get protein_milk as a base",
+    "triggers": [
+      "carburator",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "protein_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha freeze gets chocolate milk",
+    "triggers": [
+      "mocha",
+      "freeze"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "chocolate_milk",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha cold brew gets chocolate milk",
+    "triggers": [
+      "mocha",
+      "cold_brew"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "chocolate_milk",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mocha nitro cold brew gets chocolate milk",
+    "triggers": [
+      "mocha",
+      "nitro_cold_brew"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "chocolate_milk",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kids blended matcha gets matcha concentrate",
+    "triggers": [
+      "kids",
+      "blended",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small blended matcha gets matcha concentrate",
+    "triggers": [
+      "small",
+      "blended",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium blended matcha gets matcha concentrate",
+    "triggers": [
+      "medium",
+      "blended",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large blended matcha gets matcha concentrate",
+    "triggers": [
+      "large",
+      "blended",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 3
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kids blended matcha lemonade gets matcha concentrate",
+    "triggers": [
+      "kids",
+      "blended",
+      "matcha_lemonade"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small blended matcha_lemonade gets matcha concentrate",
+    "triggers": [
+      "small",
+      "blended",
+      "matcha_lemonade"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium blended matcha_lemonade gets matcha concentrate",
+    "triggers": [
+      "medium",
+      "blended",
+      "matcha_lemonade"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large blended matcha_lemonade gets matcha concentrate",
+    "triggers": [
+      "large",
+      "blended",
+      "matcha_lemonade"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 3
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kids hot matcha gets matcha concentrate",
+    "triggers": [
+      "kids",
+      "hot",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small hot matcha gets matcha concentrate",
+    "triggers": [
+      "small",
+      "hot",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium hot matcha gets matcha concentrate",
+    "triggers": [
+      "medium",
+      "hot",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large hot matcha gets matcha concentrate",
+    "triggers": [
+      "large",
+      "hot",
+      "matcha"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "matcha_concentrate",
+          "quantity": 3
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small hot black tea gets tea bag",
+    "triggers": [
+      "small",
+      "hot",
+      "black_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "black_tea_bag",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium hot black tea gets tea bag",
+    "triggers": [
+      "medium",
+      "hot",
+      "black_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "black_tea_bag",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large hot black tea gets 2 tea bags",
+    "triggers": [
+      "large",
+      "hot",
+      "black_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "black_tea_bag",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "small hot green_tea gets tea bag",
+    "triggers": [
+      "small",
+      "hot",
+      "green_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "green_tea_bag",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "medium hot green_tea gets tea bag",
+    "triggers": [
+      "medium",
+      "hot",
+      "green_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "green_tea_bag",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "large hot green_tea gets 2 tea bags",
+    "triggers": [
+      "large",
+      "hot",
+      "green_tea"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        {
+          "name": "green_tea_bag",
+          "quantity": 2
+        }
+      ]
+    }
+  },
+
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and chocolate milk gets chocolate milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "chocolate_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "chocolate_milk_drink gets chocolate milk as a milk",
+    "triggers": [
+      "chocolate_milk_drink"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and kickme_milk get kickme milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "kickme_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and 2_percent get 2_percent as a milk",
+    "triggers": [
+      "iced_milk",
+      "2_percent"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and nonfat get nonfat as a milk",
+    "triggers": [
+      "iced_milk",
+      "nonfat"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "nonfat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and protein milk get protein milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "protein_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "protein_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and oat_milk get oat_milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "oat_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "oat_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and almond_milk get almond_milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "almond_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "almond_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and coconut_milk get coconut_milk as a milk",
+    "triggers": [
+      "iced_milk",
+      "coconut_milk"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "coconut_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "iced_milk and ice_cream_mix get ice_cream_mix as a milk",
+    "triggers": [
+      "iced_milk",
+      "ice_cream_mix"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "ice_cream_mix"
+      ]
+    }
+  },
+
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "strawberry smoothie mix gets strawberry smoothie mix",
+    "triggers": [
+      "strawberry_smoothie_mix"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mango_smoothie_mix gets mango_smoothie_mix",
+    "triggers": [
+      "mango_smoothie_mix"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "mango_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "apple_smoothie_mix gets green apple smoothie mix",
+    "triggers": [
+      "apple_smoothie_mix"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "apple_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dark chocolate  gets dark chocolate",
+    "triggers": [
+      "dark_chocolate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "white chocolate gets white chocolate",
+    "triggers": [
+      "white_chocolate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "caramel  gets caramel",
+    "triggers": [
+      "caramel"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cane sugar  gets cane sugar",
+    "triggers": [
+      "cane_sugar_syrup"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "cane_sugar_syrup"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "honey  gets honey",
+    "triggers": [
+      "honey"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "honey"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cinnamon  gets cinnamon",
+    "triggers": [
+      "cinnamon"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "cinnamon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cupcake  gets cupcake",
+    "triggers": [
+      "cupcake"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "cupcake"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "creme de menthe  gets creme de menthe",
+    "triggers": [
+      "creme_de_menthe"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "creme_de_menthe"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "banana  gets banana",
+    "triggers": [
+      "banana"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "banana"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Almond (Orgeat)  gets almond",
+    "triggers": [
+      "almond_orgeat"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blue raspberry  gets blue raspberry",
+    "triggers": [
+      "blue_raspberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blackberry  gets blackberry",
+    "triggers": [
+      "blackberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "grapefruit  gets grapefruit",
+    "triggers": [
+      "grapefruit"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "grapefruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "lime  gets lime",
+    "triggers": [
+      "lime"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lime"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kiwi  gets kiwi",
+    "triggers": [
+      "kiwi"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "kiwi"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "orange  gets orange",
+    "triggers": [
+      "orange"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "pineapple  gets pineapple",
+    "triggers": [
+      "pineapple"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pineapple"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "passion fruit  gets passion fruit",
+    "triggers": [
+      "passion_fruit"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "peach  gets peach",
+    "triggers": [
+      "peach"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "pomegranate  gets pomegranate",
+    "triggers": [
+      "pomegranate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "lavender  gets lavender",
+    "triggers": [
+      "lavender"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lavender"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "red_raspberry  gets red raz",
+    "triggers": [
+      "red_raspberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "strawberry gets strawberry ",
+    "triggers": [
+      "strawberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "watermelon gets strawberry ",
+    "triggers": [
+      "watermelon"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "watermelon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "peppermint  gets peppermint",
+    "triggers": [
+      "peppermint"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peppermint"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "irish_cream  gets irish_cream",
+    "triggers": [
+      "irish_cream"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "vanilla  gets vanilla",
+    "triggers": [
+      "vanilla"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "chocolate mac  gets chocolate mac",
+    "triggers": [
+      "chocolate_macadamia_nut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hazelnut  gets hazelnut",
+    "triggers": [
+      "hazelnut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "coconut  gets coconut",
+    "triggers": [
+      "coconut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "salted caramel  gets salted caramel",
+    "triggers": [
+      "salted_caramel"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "salted_caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "lemon  gets lemon",
+    "triggers": [
+      "lemon_concentrate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lemon_concentrate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cherry  gets cherry",
+    "triggers": [
+      "cherry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "cherry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "pumpkin  gets pumpkin",
+    "triggers": [
+      "pumpkin"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pumpkin"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf pumpkin  gets pumpkin",
+    "triggers": [
+      "sf_pumpkin"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_pumpkin"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free pumpkin  gets pumpkin",
+    "triggers": [
+      "sugar_free_pumpkin"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_pumpkin"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sugar free irish  gets sf irish",
+    "triggers": [
+      "sugar_free_irish_cream"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_irish_cream"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf vanilla  gets sf vanilla",
+    "triggers": [
+      "sugar_free_vanilla"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf choc mac  gets sf choc mac",
+    "triggers": [
+      "sugar_free_chocolate_macadamia_nut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "suar_free coconut  gets sf coconut",
+    "triggers": [
+      "sugar_free_coconut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf hazelnut  gets sf hazelnut",
+    "triggers": [
+      "sugar_free_hazelnut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf caramel  gets sf caramel",
+    "triggers": [
+      "sugar_free_caramel"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf white chocolate  gets sf white chocolate",
+    "triggers": [
+      "sugar_free_white_chocolate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf chocolate  gets sf chocolate",
+    "triggers": [
+      "sugar_free_chocolate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf strawberry  gets sf strawberry",
+    "triggers": [
+      "sugar_free_strawberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_strawberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf red raz  gets sf red raz",
+    "triggers": [
+      "sugar_free_raspberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf peach  gets sf peach",
+    "triggers": [
+      "sugar_free_peach"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_peach"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf salted  gets sf salted",
+    "triggers": [
+      "sugar_free_salted_caramel"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_salted_caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sf peppermint  gets sf peppermint",
+    "triggers": [
+      "sugar_free_peppermint"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_peppermint"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Dummy assigment rule for all flavors, to test no_flavor rules.",
+    "triggers": [
+      "all_flavors"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry_smoothie_mix",
+        "mango_smoothie_mix",
+        "apple_smoothie_mix",
+        "dark_chocolate",
+        "white_chocolate",
+        "caramel",
+        "cane_sugar_syrup",
+        "honey",
+        "cinnamon",
+        "cupcake",
+        "creme_de_menthe",
+        "banana",
+        "almond_orgeat",
+        "blue_raz",
+        "blackberry",
+        "grapefruit",
+        "lime",
+        "kiwi",
+        "orange",
+        "pineapple",
+        "passion_fruit",
+        "peach",
+        "pumpkin",
+        "pomegranate",
+        "red_raspberry",
+        "strawberry",
+        "watermelon",
+        "peppermint",
+        "irish_cream",
+        "vanilla",
+        "chocolate_macadamia_nut",
+        "hazelnut",
+        "coconut",
+        "salted_caramel",
+        "lemon_concentrate",
+        "cherry",
+        "golden_eagle_syrup",
+        "sugar_free_irish_cream",
+        "sf_vanilla",
+        "sugar_free_chocolate_macadamia_nut",
+        "sugar_free_coconut",
+        "sugar_free_hazelnut",
+        "sugar_free_caramel",
+        "sugar_free_pumpkin",
+        "sugar_free_white_chocolate",
+        "sugar_free_chocolate",
+        "sugar_free_strawberry",
+        "sugar_free_raspberry",
+        "sugar_free_peach",
+        "sugar_free_salted_caramel",
+        "sugar_free_peppermint"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Dummy assigment rule for all toppings, to test no_topping rules.",
+    "triggers": [
+      "all_toppings"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "whip_cream",
+        "soft_top",
+        "sour_shot",
+        "sweet_cream",
+        "strawberry_poppin_boba",
+        "blue_raspberry_poppin_boba",
+        "chocolate_drizzle",
+        "caramel_drizzle",
+        "white_chocolate_drizzle",
+        "honey_drizzle",
+        "cinnamon_sprinks",
+        "raw_sugar_sprinks",
+        "birthday_cake_sprinks"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Dummy assignment rule for all floats, to test no_float rules.",
+    "triggers": [
+      "all_floats"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "blackberry_float",
+        "blue_raspberry_float",
+        "cherry_float",
+        "coconut_float",
+        "lavender_float",
+        "mango_float",
+        "peach_float",
+        "pomegranate_float",
+        "raspberry_float",
+        "strawberry_float",
+        "unicorn_blood_float",
+        "watermelon_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Dummy assignment rule for all milks in milk role, to test no_milk rules.",
+    "triggers": [
+      "all_milk_bases"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "chocolate_milk",
+        "kickme_milk",
+        "oat_milk",
+        "almond_milk",
+        "coconut_milk",
+        "protein_milk",
+        "nonfat",
+        "2_percent"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "Dummy assignment rule for all milks in milk_adds role, to test milk modifier rules.",
+    "triggers": [
+      "all_milk_adds"
+    ],
+    "payload": {
+      "role": "milk_adds",
+      "items": [
+        {
+          "name": "chocolate_milk",
+          "quantity": 1
+        },
+        {
+          "name": "kickme_milk",
+          "quantity": 1
+        },
+        {
+          "name": "oat_milk",
+          "quantity": 1
+        },
+        {
+          "name": "almond_milk",
+          "quantity": 1
+        },
+        {
+          "name": "coconut_milk",
+          "quantity": 1
+        },
+        {
+          "name": "protein_milk",
+          "quantity": 1
+        },
+        {
+          "name": "nonfat",
+          "quantity": 1
+        },
+        {
+          "name": "2_percent",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "aftershock gets red_raspberry, strawberry, lime, blackberry",
+    "triggers": [
+      "aftershock"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry",
+        "strawberry",
+        "lime",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "almond bar gets white_chocolate, almond_orgeat",
+    "triggers": [
+      "almond_bar"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "alpine gets white_chocolate, coconut",
+    "triggers": [
+      "alpine"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "apple patch gets apple_smoothie_mix, pomegranate",
+    "triggers": [
+      "apple_patch"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "apple_smoothie_mix",
+        "pomegranate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "aquaberry gets blue_raspberry, kiwi, strawberry, watermelon",
+    "triggers": [
+      "aquaberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry",
+        "kiwi",
+        "strawberry",
+        "watermelon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "astronaut gets blackberry, red_raspberry, almond_orgeat",
+    "triggers": [
+      "astronaut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blackberry",
+        "red_raspberry",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "awesome orange gets strawberry, lime, orange",
+    "triggers": [
+      "awesome_orange"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "lime",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "awesome orange gets toppings",
+    "triggers": [
+      "awesome_orange"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "sour_shot"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "banana bread gets banana, hazelnut",
+    "triggers": [
+      "banana_bread"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "banana",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "banana cream pie gets banana, white_chocolate",
+    "triggers": [
+      "banana_cream_pie"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "banana",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "black forest gets dark_chocolate, cherry",
+    "triggers": [
+      "black_forest"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "cherry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blackberry smash gets blackberry, grapefruit",
+    "triggers": [
+      "blackberry_smash"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blackberry",
+        "grapefruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "blue oasis gets lime, coconut, blue_raspberry",
+    "triggers": [
+      "blue_oasis"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lime",
+        "coconut",
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "bubblegum gets strawberry, vanilla, banana",
+    "triggers": [
+      "bubblegum"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "vanilla",
+        "banana"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "capri gets vanilla, cherry, blackberry, almond_orgeat",
+    "triggers": [
+      "capri"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla",
+        "cherry",
+        "blackberry",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cherry blossom gets white_chocolate, cherry",
+    "triggers": [
+      "cherry_blossom"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "cherry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cinnamon roll gets white_chocolate, cinnamon",
+    "triggers": [
+      "cinnamon_roll"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "cinnamon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cookie gets chocolate_macadamia_nut, white_chocolate",
+    "triggers": [
+      "cookie"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "chocolate_macadamia_nut",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cookie crave gets dark_chocolate, chocolate_macadamia_nut",
+    "triggers": [
+      "cookie_crave"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cookies and cream gets white_chocolate",
+    "triggers": [
+      "cookies_and_cream"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cookies and cream gets toppings",
+    "triggers": [
+      "cookies_and_cream"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "chocolate_drizzle"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "coral reef gets orange, vanilla",
+    "triggers": [
+      "coral_reef"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "orange",
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "coral reef gets toppings",
+    "triggers": [
+      "coral_reef"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "blue_raspberry_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cotton candy gets blue_raspberry, white_chocolate",
+    "triggers": [
+      "cotton_candy"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "countdown gets white_chocolate, irish_cream",
+    "triggers": [
+      "countdown"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "irish_cream"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cutie gets white_chocolate, orange",
+    "triggers": [
+      "cutie"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dinosaur egg gets blue_raspberry",
+    "triggers": [
+      "dinosaur_egg"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dino egg gets blue_raspberry",
+    "triggers": [
+      "dino_egg"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dinosaur egg gets toppings",
+    "triggers": [
+      "dinosaur_egg"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "unicorn_blood_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dinosaur egg gets toppings",
+    "triggers": [
+      "dino_egg"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "unicorn_blood_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dirty caterpillar gets caramel, apple_smoothie_mix",
+    "triggers": [
+      "dirty_caterpillar"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "caramel",
+        "apple_smoothie_mix"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "double chocolate mocha gets dark_chocolate",
+    "triggers": [
+      "double_chocolate_mocha"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dragon slayer gets blue_raspberry, red_raspberry",
+    "triggers": [
+      "dragon_slayer"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry",
+        "red_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dragon slayer gets toppings",
+    "triggers": [
+      "dragon_slayer"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "blackberry_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dream weaver gets white_chocolate, hazelnut",
+    "triggers": [
+      "dream_weaver"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dutch crunch gets strawberry, hazelnut",
+    "triggers": [
+      "dutch_crunch"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "dutch mojito gets lime, coconut, creme_de_menthe",
+    "triggers": [
+      "dutch_mojito"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lime",
+        "coconut",
+        "creme_de_menthe"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "eclipse gets peach, passion_fruit",
+    "triggers": [
+      "eclipse"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "eclipse gets toppings",
+    "triggers": [
+      "eclipse"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "blackberry_float",
+        "blue_raspberry_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "electric berry gets blue_raspberry, lime",
+    "triggers": [
+      "electric_berry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry",
+        "lime"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "fire lizard gets strawberry, banana, orange",
+    "triggers": [
+      "fire_lizard"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "banana",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "firestorm gets peach, orange",
+    "triggers": [
+      "firestorm"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "flap jack gets white_chocolate, salted_caramel, vanilla",
+    "triggers": [
+      "flap_jack"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "salted_caramel",
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "french vanilla bean gets vanilla, caramel",
+    "triggers": [
+      "french_vanilla_bean"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla",
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "galaxy fish gets strawberry, lime, passion_fruit",
+    "triggers": [
+      "galaxy_fish"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "lime",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "gem berry gets red_raspberry, vanilla, blackberry",
+    "triggers": [
+      "gem_berry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry",
+        "vanilla",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "german chocolate gets coconut, caramel, dark_chocolate",
+    "triggers": [
+      "german_chocolate"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "coconut",
+        "caramel",
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "grasshopper gets dark_chocolate, creme_de_menthe",
+    "triggers": [
+      "grasshopper"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "creme_de_menthe"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "gummy bear gets lime, white_chocolate, kiwi",
+    "triggers": [
+      "gummy_bear"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "lime",
+        "white_chocolate",
+        "kiwi"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hawaiian gets banana, orange, peach, strawberry",
+    "triggers": [
+      "hawaiian"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "banana",
+        "orange",
+        "peach",
+        "strawberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "horchata gets caramel, white_chocolate, cinnamon",
+    "triggers": [
+      "horchata"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "caramel",
+        "white_chocolate",
+        "cinnamon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hummingbird gets pomegranate, passion_fruit",
+    "triggers": [
+      "hummingbird"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hyperchrome gets passion_fruit, pomegranate, orange",
+    "triggers": [
+      "hyperchrome"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit",
+        "pomegranate",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "jelly donut gets salted_caramel, red_raspberry, almond_orgeat",
+    "triggers": [
+      "jelly_donut"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "salted_caramel",
+        "red_raspberry",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "juice gets pomegranate, cherry, blackberry",
+    "triggers": [
+      "juice"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "cherry",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kick in da face gets peach, pomegranate, cherry, passion_fruit",
+    "triggers": [
+      "kick_in_da_face"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "pomegranate",
+        "cherry",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "kinda grape gets passion_fruit, blue_raspberry, strawberry",
+    "triggers": [
+      "kinda_grape"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit",
+        "blue_raspberry",
+        "strawberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "laser cat gets red_raspberry, coconut",
+    "triggers": [
+      "laser_cat"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "luv bug gets pomegranate, red_raspberry, blackberry",
+    "triggers": [
+      "luv_bug"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "red_raspberry",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "mad moose gets irish_cream, dark_chocolate",
+    "triggers": [
+      "mad_moose"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream",
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "majestic forest gets blackberry, kiwi, blue_raspberry",
+    "triggers": [
+      "majestic_forest"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blackberry",
+        "kiwi",
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "marmalade gets orange, grapefruit, strawberry",
+    "triggers": [
+      "marmalade"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "orange",
+        "grapefruit",
+        "strawberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "merry berry gets strawberry, red_raspberry, blackberry",
+    "triggers": [
+      "merry_berry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "red_raspberry",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "midnight gets pomegranate, blackberry",
+    "triggers": [
+      "midnight"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "molten lava gets dark_chocolate, cinnamon",
+    "triggers": [
+      "molten_lava"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "cinnamon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "ninja gets creme_de_menthe, white_chocolate",
+    "triggers": [
+      "ninja"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "creme_de_menthe",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "nirvana gets irish_cream, dark_chocolate, caramel",
+    "triggers": [
+      "nirvana"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream",
+        "dark_chocolate",
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "og gummy bear gets grapefruit, passion_fruit, watermelon, pomegranate",
+    "triggers": [
+      "og_gummy_bear"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "grapefruit",
+        "passion_fruit",
+        "watermelon",
+        "pomegranate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "oh peach gets peach, watermelon, coconut",
+    "triggers": [
+      "oh_peach"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "watermelon",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "orangesicle gets orange, vanilla",
+    "triggers": [
+      "orangesicle"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "orange",
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "palm beach gets peach, pomegranate",
+    "triggers": [
+      "palm_beach"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "pomegranate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "palm tree gets pomegranate, lime, passion_fruit",
+    "triggers": [
+      "palm_tree"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "lime",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "passion water gets passion_fruit, watermelon",
+    "triggers": [
+      "passion_water"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit",
+        "watermelon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "peach ring gets passion_fruit, white_chocolate",
+    "triggers": [
+      "peach_ring"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "peach ring gets toppings",
+    "triggers": [
+      "peach_ring"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "peach_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "pink flamingo gets strawberry, peach, white_chocolate",
+    "triggers": [
+      "pink_flamingo"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "peach",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "polar berry gets vanilla",
+    "triggers": [
+      "polar_berry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "polar berry gets toppings",
+    "triggers": [
+      "polar_berry"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "blue_raspberry_float",
+        "raspberry_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "radberry gets red_raspberry, blue_raspberry",
+    "triggers": [
+      "radberry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry",
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "ray of sunshine gets peach, grapefruit, blackberry",
+    "triggers": [
+      "ray_of_sunshine"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "grapefruit",
+        "blackberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "red white and blue gets red_raspberry, blue_raspberry, white_chocolate",
+    "triggers": [
+      "red_white_and_blue"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "red_raspberry",
+        "blue_raspberry",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "rocky point gets peach, blackberry, coconut, orange",
+    "triggers": [
+      "rocky_point"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "blackberry",
+        "coconut",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "rose city gets strawberry, peach",
+    "triggers": [
+      "rose_city"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "peach"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sandcastle gets white_chocolate, coconut, hazelnut",
+    "triggers": [
+      "sandcastle"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "coconut",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "scarecrow gets dark_chocolate, caramel, hazelnut",
+    "triggers": [
+      "scarecrow"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "caramel",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "scuba diver gets white_chocolate, kiwi",
+    "triggers": [
+      "scuba_diver"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "kiwi"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "seashell gets vanilla, chocolate_macadamia_nut, coconut",
+    "triggers": [
+      "seashell"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla",
+        "chocolate_macadamia_nut",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shark attack gets blue_raspberry, coconut, lime",
+    "triggers": [
+      "shark_attack"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blue_raspberry",
+        "coconut",
+        "lime"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shark attack gets toppings",
+    "triggers": [
+      "shark_attack"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "pomegranate_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shenanigan gets irish_cream, hazelnut",
+    "triggers": [
+      "shenanigan"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "irish_cream",
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "shipwreck gets coconut, banana",
+    "triggers": [
+      "shipwreck"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "coconut",
+        "banana"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "snicker doodle gets white_chocolate, chocolate_macadamia_nut, cinnamon",
+    "triggers": [
+      "snicker_doodle"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "chocolate_macadamia_nut",
+        "cinnamon"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "snicker doodle gets toppings",
+    "triggers": [
+      "snicker_doodle"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "cinnamon_sprinks"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "starry night gets blackberry, blue_raspberry",
+    "triggers": [
+      "starry_night"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "blackberry",
+        "blue_raspberry"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "stop light gets pomegranate, passion_fruit, kiwi",
+    "triggers": [
+      "stop_light"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "passion_fruit",
+        "kiwi"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sunburst gets white_chocolate, almond_orgeat",
+    "triggers": [
+      "sunburst"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "surfside gets dark_chocolate, coconut, banana",
+    "triggers": [
+      "surfside"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "coconut",
+        "banana"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sweet sunrise gets peach, passion_fruit, banana, orange",
+    "triggers": [
+      "sweet_sunrise"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "peach",
+        "passion_fruit",
+        "banana",
+        "orange"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "tigers blood gets strawberry, coconut",
+    "triggers": [
+      "tigers_blood"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "toasted mellow gets vanilla, chocolate_macadamia_nut",
+    "triggers": [
+      "toasted_mellow"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "vanilla",
+        "chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "trail mix gets dark_chocolate, chocolate_macadamia_nut, almond_orgeat",
+    "triggers": [
+      "trail_mix"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "chocolate_macadamia_nut",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "trifecta gets dark_chocolate, white_chocolate, caramel",
+    "triggers": [
+      "trifecta"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "dark_chocolate",
+        "white_chocolate",
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "triple p gets pomegranate, peach, passion_fruit",
+    "triggers": [
+      "triple_p"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "peach",
+        "passion_fruit"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "trixie gets pomegranate, orange, almond_orgeat",
+    "triggers": [
+      "trixie"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "pomegranate",
+        "orange",
+        "almond_orgeat"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "tropical gets passion_fruit, blue_raspberry, coconut",
+    "triggers": [
+      "tropical"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "passion_fruit",
+        "blue_raspberry",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "tuxedo gets white_chocolate, dark_chocolate",
+    "triggers": [
+      "tuxedo"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "unicorn blood gets strawberry, almond_orgeat, white_chocolate",
+    "triggers": [
+      "unicorn_blood"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "almond_orgeat",
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "vampire slayer gets strawberry, pomegranate",
+    "triggers": [
+      "vampire_slayer"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "pomegranate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "werewolf gets salted_caramel, hazelnut, dark_chocolate",
+    "triggers": [
+      "werewolf"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "salted_caramel",
+        "hazelnut",
+        "dark_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "white zombie gets white_chocolate, vanilla",
+    "triggers": [
+      "white_zombie"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "vanilla"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "yeti gets white_chocolate, vanilla, coconut",
+    "triggers": [
+      "yeti"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "vanilla",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "zs double rainbro gets sugar_free_peach, sugar_free_strawberry, sugar_free_coconut",
+    "triggers": [
+      "zs_double_rainbro"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_peach",
+        "sugar_free_strawberry",
+        "sugar_free_coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "zs pink flamingo gets sugar_free_strawberry, sugar_free_peach, sugar_free_white_chocolate",
+    "triggers": [
+      "zs_pink_flamingo"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_strawberry",
+        "sugar_free_peach",
+        "sugar_free_white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "zsa tigers blood gets sugar_free_strawberry, sugar_free_coconut",
+    "triggers": [
+      "zsa_tigers_blood"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "sugar_free_strawberry",
+        "sugar_free_coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "candied cherry gets cherry and almond",
+    "triggers": [
+      "candied_cherry"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "cherry", "almond"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "candied cherry gets cherry float",
+    "triggers": [
+      "candied_cherry"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "cherry_float"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "strawberry horchata gets strawberry, cinnamon, caramel and white chocolate",
+    "triggers": [
+      "strawberry_horchata"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry", "cinnamon", "caramel", "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hazelnut truffle gets hazelnut",
+    "triggers": [
+      "hazelnut_truffle"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "hazelnut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hazelnut truffle gets toppings",
+    "triggers": [
+      "hazelnut_truffle"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "soft_top",
+        "caramel_drizzle"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "double rainbro gets strawberry peach coconut",
+    "triggers": [
+      "double_rainbro"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "strawberry",
+        "peach",
+        "coconut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "og grand canyon gets white chocolate, chocolate mac",
+    "triggers": [
+      "og_grand_canyon"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate",
+        "chocolate_macadamia_nut"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "og grand canyon gets breve and chocolate milk,",
+    "triggers": [
+      "og_grand_canyon"
+    ],
+    "payload": {
+      "role": "milk",
+      "items": [
+        "kickme_milk",
+        "chocolate_milk"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "christmas morning gets white chocolate",
+    "triggers": [
+      "christmas_morning"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sweater_weather gets white chocolate",
+    "triggers": [
+      "sweater_weather"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "white_chocolate"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sweater_weather gets white coffee",
+    "triggers": [
+      "sweater_weather"
+    ],
+    "payload": {
+      "role": "coffee",
+      "items": [
+        "white_coffee"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "sweater_weather gets soft top and cinn sprinks",
+    "triggers": [
+      "sweater_weather"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "soft_top",
+        "cinnamon_sprinks"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "hopscotch gets salted caramel and caramel",
+    "triggers": [
+      "hopscotch"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "salted_caramel",
+        "caramel"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cpb gets salted caramel and pumpkin",
+    "triggers": [
+      "cpb"
+    ],
+    "payload": {
+      "role": "flavor",
+      "items": [
+        "salted_caramel",
+        "pumpkin"
+      ]
+    }
+  },
+  {
+    "type": "assign",
+    "priority": 90,
+    "description": "cpb gets soft top",
+    "triggers": [
+      "cpb"
+    ],
+    "payload": {
+      "role": "topping",
+      "items": [
+        "soft_top", "pumpkin_drizzle", "raw_sugar_sprinks"
+      ]
+    }
+  }
+  
+]

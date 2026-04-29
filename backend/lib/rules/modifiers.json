@@ -1,0 +1,4249 @@
+[
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "oat milk overrides default milk",
+    "triggers": ["oat_milk"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "oat_milk"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "almond milk overrides default milk",
+    "triggers": ["almond_milk"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "almond_milk"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "coconut milk overrides default milk",
+    "triggers": ["coconut_milk"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "coconut_milk"
+    }
+    },
+     {
+    "type": "modifier",
+    "priority": 300,
+    "description": "protein milk overrides default milk",
+    "triggers": ["protein_milk"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "protein_milk"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "nonfat milk overrides default milk",
+    "triggers": ["nonfat"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "nonfat"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "skinny overrides default milk",
+    "triggers": ["skinny"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "nonfat"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "2 percent overrides default milk",
+    "triggers": ["2_percent"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "2_percent"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "kickme milk overrides default milk",
+    "triggers": ["kickme_milk"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "kickme_milk"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "frost_mix overrides default milk",
+    "triggers": ["ice_cream_mix"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "ice_cream_mix"
+    }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_chocolate_milk gets 1oz choc milk",
+        "triggers": ["lite_chocolate_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["chocolate_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_chocolate_milk removes chocolate milk",
+        "triggers": ["no_chocolate_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["chocolate_milk"]
+        }
+    },
+
+     {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_kickme_milk gets 1oz  kickme milk",
+        "triggers": ["lite_kickme_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["kickme_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_kickme_milk removes kickme milk",
+        "triggers": ["no_kickme_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["kickme_milk"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_oat_milk gets 1oz oat milk",
+        "triggers": ["lite_oat_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["oat_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_oat_milk removes oat milk",
+        "triggers": ["no_oat_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["oat_milk"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_almond_milk gets 1oz almond milk",
+        "triggers": ["lite_almond_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["almond_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_almond_milk removes almond milk",
+        "triggers": ["no_almond_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["almond_milk"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_coconut_milk gets 1oz coconut milk",
+        "triggers": ["lite_coconut_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["coconut_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_coconut_milk removes coconut milk",
+        "triggers": ["no_coconut_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["coconut_milk"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_protein_milk gets 1oz protein milk",
+        "triggers": ["lite_protein_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["protein_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_protein_milk removes protein milk",
+        "triggers": ["no_protein_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["protein_milk"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_nonfat gets 1oz nonfat",
+        "triggers": ["lite_nonfat"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["nonfat"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_nonfat removes nonfat",
+        "triggers": ["no_nonfat"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["nonfat"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite_2_percent gets 1oz 2 percent",
+        "triggers": ["lite_2_percent"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["2_percent"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_2_percent removes 2 percent",
+        "triggers": ["no_2_percent"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["2_percent"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite ice_cream_mix mix gets 1oz ice_cream_mix",
+        "triggers": ["lite_ice_cream_mix"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["ice_cream_mix"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_ice_cream_mix removes ice_cream_mix",
+        "triggers": ["no_ice_cream_mix"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["ice_cream_mix"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_chocolate_milk removes chocolate milk from milk role",
+        "triggers": ["no_chocolate_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "chocolate_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_kickme_milk removes kickme milk from milk role",
+        "triggers": ["no_kickme_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "kickme_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_oat_milk removes oat milk from milk role",
+        "triggers": ["no_oat_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "oat_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_almond_milk removes almond milk from milk role",
+        "triggers": ["no_almond_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "almond_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_coconut_milk removes coconut milk from milk role",
+        "triggers": ["no_coconut_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "coconut_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_protein_milk removes protein milk from milk role",
+        "triggers": ["no_protein_milk"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "protein_milk"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_nonfat removes nonfat from milk role",
+        "triggers": ["no_nonfat"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "nonfat"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_2_percent removes 2 percent from milk role",
+        "triggers": ["no_2_percent"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "2_percent"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no_ice_cream_mix removes ice_cream_mix from milk role",
+        "triggers": ["no_ice_cream_mix"],
+        "payload": {
+            "target": "milk",
+            "operation": "remove",
+            "value": "ice_cream_mix"
+        }
+    },
+
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free mocha gets kickme",
+    "triggers": ["sugar_free", "mocha"],
+    "payload": {
+        "target": "milk",
+        "operation": "override",
+        "value": "kickme_milk"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sf rebel always overrides base w sugar free can",
+    "triggers": ["sugar_free", "rebel"],
+    "payload": {
+        "target": "base",
+        "operation": "override",
+        "value": "sf_rebel_can"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar_free_rebel always overrides base w sugar free can",
+    "triggers": ["sugar_free_rebel", "rebel"],
+    "payload": {
+        "target": "base",
+        "operation": "override",
+        "value": "sf_rebel_can"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "can blended overrides rebel concentrate",
+    "triggers": ["blended", "can_blended", "rebel"],
+    "payload": {
+        "target": "base",
+        "operation": "override",
+        "value": "rebel_can"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "blended sf rebel overrides rebel concentrate",
+    "triggers": ["blended", "sugar_free", "rebel"],
+    "payload": {
+        "target": "base",
+        "operation": "override",
+        "value": "sf_rebel_can"
+    }
+    },
+
+    {
+    "type": "modifier",
+    "priority": 350,
+    "description": "cut_with_green_tea always adds green tea to base",
+    "triggers": ["cut_with_green_tea"],
+    "payload": {
+        "target": "base",
+        "operation": "add",
+        "value": "green_tea"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 350,
+    "description": "cut_with_black_tea always adds black tea to base",
+    "triggers": ["cut_with_black_tea"],
+    "payload": {
+        "target": "base",
+        "operation": "add",
+        "value": "black_tea"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 350,
+    "description": "cut_with_lemonade always adds lemonade to base",
+    "triggers": ["cut_with_lemonade"],
+    "payload": {
+        "target": "base",
+        "operation": "add",
+        "value": "lemonade"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 350,
+    "description": "cut_with_soda always adds cool can to base",
+    "triggers": ["cut_with_soda"],
+    "payload": {
+        "target": "base",
+        "operation": "add",
+        "value": "cool_can"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 350,
+    "description": "cut_with_fizz always adds cool can to base",
+    "triggers": ["cut_with_fizz"],
+    "payload": {
+        "target": "base",
+        "operation": "add",
+        "value": "cool_can"
+    }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "chocolate_milk gets 1 choc milk - not 2, to allow stacks.",
+        "triggers": ["chocolate_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["chocolate_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra_chocolate_milk gets 3oz choc milk",
+        "triggers": ["extra_chocolate_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["chocolate_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "cream gets 1 cream - not 2, to allow stacks.",
+        "triggers": ["cream"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["kickme_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra cream gets 3 scoops cream",
+        "triggers": ["extra_cream"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["kickme_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "lite cream gets 1 scoop cream",
+        "triggers": ["lite_cream"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "override",
+            "value": ["kickme_milk"],
+            "quantity": 1
+        }
+    },
+     {
+        "type": "modifier",
+        "priority": 250,
+        "description": "no cream gets 1 scoop cream",
+        "triggers": ["no_cream"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "remove",
+            "value": ["kickme_milk"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "kickme gets 1 - not 2, to allow stacks.",
+        "triggers": ["kickme_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["kickme_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra kickme gets 3 scoops cream",
+        "triggers": ["extra_kickme_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["kickme_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "oat_milk gets 1 - not 2, to allow stacks.",
+        "triggers": ["oat_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["oat_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra oat_milk gets 3 scoops",
+        "triggers": ["extra_oat_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["oat_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "almond_milk gets 1 - not 2, to allow stacks.",
+        "triggers": ["almond_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["almond_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra almond_milk gets 3 scoops",
+        "triggers": ["extra_almond_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["almond_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "coconut_milk gets 1 - not 2, to allow stacks.",
+        "triggers": ["coconut_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["coconut_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra_coconut_milk gets 3 scoops",
+        "triggers": ["extra_coconut_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["coconut_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "protein_milk gets 1 - not 2, to allow stacks.",
+        "triggers": ["protein_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["protein_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra protein_milk gets 3 scoops",
+        "triggers": ["extra_protein_milk"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["protein_milk"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "2_percent gets 1 - not 2, to allow stacks.",
+        "triggers": ["2_percent"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["2_percent"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra 2_percent gets 3 scoops",
+        "triggers": ["extra_2_percent"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["2_percent"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "nonfat gets 1 - not 2, to allow stacks.",
+        "triggers": ["nonfat"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["nonfat"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra nonfat gets 3 scoops",
+        "triggers": ["extra_nonfat"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["nonfat"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "ice cream mix gets 1 - not 2, to allow stacks.",
+        "triggers": ["ice_cream_mix"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["ice_cream_mix"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra ice_cream_mix gets 3 scoops",
+        "triggers": ["extra_ice_cream_mix"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["ice_cream_mix"],
+            "quantity": 3
+        }
+    },
+    
+
+
+
+
+
+
+
+
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "white coffee overrides regular coffee",
+    "triggers": ["white_coffee"],
+    "payload": {
+        "target": "coffee",
+        "operation": "override",
+        "value": "white_coffee"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "decaf coffee overrides regular coffee",
+    "triggers": ["decaf"],
+    "payload": {
+        "target": "coffee",
+        "operation": "override",
+        "value": "decaf_coffee"
+    }
+    },
+
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra_sweet gets +1 scoop",
+        "triggers": ["extra_sweet"],
+        "payload": {
+            "target": "scoops",
+            "operation": "add",
+            "value": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "half_sweet gets 0.5x scoops",
+        "triggers": ["half_sweet"],
+        "payload": {
+            "target": "scoops",
+            "operation": "mul",
+            "value": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "quarter_sweet gets 0.25x scoops",
+        "triggers": ["quarter_sweet"],
+        "payload": {
+            "target": "scoops",
+            "operation": "mul",
+            "value": 0.25
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free golden eagle doesn't get golden eagle syrup",
+        "triggers": ["sugar_free", "golden_eagle"],
+        "payload": {
+            "target": "flavor",
+            "operation": "remove",
+            "value": "golden_eagle_syrup"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "whip cream gets whip cream",
+        "triggers": ["whip_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["whip_cream"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra whip cream gets 2 whip cream",
+        "triggers": ["extra_whip_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["whip_cream"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite whip cream gets 0.5 whip cream",
+        "triggers": ["lite_whip_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "whip parfait gets 3 whip cream",
+        "triggers": ["whip_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra whip parfait gets 4 whip cream (estimate)",
+        "triggers": ["extra_whip_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 4
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite whip parfait gets 1.5 whip cream (estimate)",
+        "triggers": ["lite_whip_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 1.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "soft top parfait gets 2 soft top",
+        "triggers": ["soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra soft top parfait gets 3 soft top",
+        "triggers": ["extra_soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite soft top parfait gets 1 soft top",
+        "triggers": ["lite_soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "flavored soft top parfait gets 2 soft top",
+        "triggers": ["flavored_soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "flavored_extra soft top parfait gets 3 soft top",
+        "triggers": ["extra_flavored_soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite flavored_soft top parfait gets 1 soft top",
+        "triggers": ["lite_flavored_soft_top_parfait"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no whip cream gets no whip cream",
+        "triggers": ["no_whip_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["whip_cream"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "soft top gets soft top",
+        "triggers": ["soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra soft top gets 3 soft top",
+        "triggers": ["extra_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no soft top gets no soft top",
+        "triggers": ["no_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["soft_top"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite soft top gets 1 soft top",
+        "triggers": ["lite_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "flavored soft top gets soft top",
+        "triggers": ["flavored_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra flavored soft top gets 3 soft top",
+        "triggers": ["extra_flavored_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 3
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite flavored soft top gets 1 soft top",
+        "triggers": ["lite_flavored_soft_top"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["soft_top"],
+            "quantity": 1
+        }
+    },
+
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "caramel drizzle gets caramel drizzle",
+        "triggers": ["caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra caramel drizzle gets extra caramel drizzle",
+        "triggers": ["extra_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "caramel drizzle and extra_drizzle_around_cup gets 2 caramel drizzle",
+        "triggers": ["caramel_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "extra caramel drizzle and extra_drizzle_around_cup gets 2 caramel drizzle",
+        "triggers": ["extra_caramel_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite caramel drizzle gets lite caramel drizzle",
+        "triggers": ["lite_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "caramel drizzle and lite drizzle around cup gets lite caramel drizzle",
+        "triggers": ["caramel_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite_caramel drizzle and lite drizzle around cup gets lite caramel drizzle",
+        "triggers": ["lite_caramel_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no caramel drizzle gets caramel drizzle",
+        "triggers": ["no_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["caramel_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "chocolate drizzle gets chocolate drizzle",
+        "triggers": ["chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra chocolate drizzle gets extra chocolate drizzle",
+        "triggers": ["extra_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "chocolate drizzle and extra_drizzle around cup gets extra chocolate drizzle",
+        "triggers": ["chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "chocolate drizzle and extra_drizzle around cup gets extra chocolate drizzle",
+        "triggers": ["extra_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite chocolate drizzle gets lite chocolate drizzle",
+        "triggers": ["lite_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "chocolate drizzle and lite_drizzle around cup gets lite chocolate drizzle",
+        "triggers": ["chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite chocolate drizzle and lite_drizzle around cup gets lite chocolate drizzle",
+        "triggers": ["lite_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no chocolate drizzle gets no chocolate drizzle",
+        "triggers": ["no_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["chocolate_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "white chocolate drizzle gets white chocolate drizzle",
+        "triggers": ["white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra white chocolate drizzle gets extra white chocolate drizzle",
+        "triggers": ["extra_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "white chocolate drizzle and extra drizzle around cup gets extra white chocolate drizzle",
+        "triggers": ["white_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "white chocolate drizzle and extra drizzle around cup gets extra white chocolate drizzle",
+        "triggers": ["extra_white_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite white chocolate drizzle gets lite white chocolate drizzle",
+        "triggers": ["lite_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "white chocolate drizzle and lite drizzle around cup gets lite white chocolate drizzle",
+        "triggers": ["white_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite white chocolate drizzle and lite drizzle around cup gets lite white chocolate drizzle",
+        "triggers": ["lite_white_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no white chocolate drizzle gets  no white chocolate drizzle",
+        "triggers": ["no_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["white_chocolate_drizzle"]
+        }
+    },
+        {
+        "type": "modifier",
+        "priority": 90,
+        "description": "pumpkin_drizzle gets pumpkin_drizzle",
+        "triggers": ["pumpkin_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra pumpkin_drizzle gets pumpkin_drizzle",
+        "triggers": ["extra_pumpkin_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "pumpkin_drizzle and extra_drizzle_around_cup gets extra pumpkin_drizzle",
+        "triggers": ["pumpkin_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 2
+        }
+    },
+     {
+        "type": "modifier",
+        "priority": 200,
+        "description": "extra pumpkin_drizzle and extra_drizzle_around_cup gets extra pumpkin_drizzle",
+        "triggers": ["extra_pumpkin_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite pumpkin_drizzle gets pumpkin_drizzle",
+        "triggers": ["lite_pumpkin_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "pumpkin_drizzle and lite drizzle around cup gets lite pumpkin_drizzle",
+        "triggers": ["pumpkin_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite pumpkin_drizzle and lite drizzle around cup gets lite pumpkin_drizzle",
+        "triggers": ["lite_pumpkin_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["pumpkin_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no pumpkin_drizzle gets no pumpkin_drizzle",
+        "triggers": ["no_pumpkin_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["pumpkin_drizzle"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar_free_caramel drizzle gets caramel drizzle",
+        "triggers": ["sugar_free_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra sugar_free caramel drizzle gets caramel drizzle",
+        "triggers": ["extra_sugar_free_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite sugar_free caramel drizzle gets caramel drizzle",
+        "triggers": ["lite_sugar_free_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sugar_free_caramel drizzle gets caramel drizzle",
+        "triggers": ["no_sugar_free_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["sugar_free_caramel_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar_free_chocolate drizzle gets chocolate drizzle",
+        "triggers": ["sugar_free_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra sugar_free_chocolate drizzle gets chocolate drizzle",
+        "triggers": ["extra_sugar_free_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite sugar_free_chocolate drizzle gets chocolate drizzle",
+        "triggers": ["lite_sugar_free_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no chocolate drizzle gets no chocolate drizzle",
+        "triggers": ["no_sugar_free_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["sugar_free_chocolate_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar_free_white chocolate drizzle gets white chocolate drizzle",
+        "triggers": ["sugar_free_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra sugar_free_white chocolate drizzle gets  extra white chocolate drizzle",
+        "triggers": ["extra_sugar_free_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite sugar_free_white chocolate drizzle gets  lite white chocolate drizzle",
+        "triggers": ["lite_sugar_free_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sugar_free_white chocolate drizzle gets no white chocolate drizzle",
+        "triggers": ["no_sugar_free_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["sugar_free_white_chocolate_drizzle"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_caramel drizzle and extra_drizzle_around_cup gets 2 sugar_free_caramel drizzle",
+        "triggers": ["sugar_free_caramel_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "extra sugar_free_caramel drizzle and extra_drizzle_around_cup gets 2 sugar_free_caramel drizzle",
+        "triggers": ["extra_sugar_free_caramel_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_caramel drizzle and lite drizzle around cup gets sugar_free_caramel drizzle",
+        "triggers": ["sugar_free_caramel_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite_sugar_free_caramel drizzle and lite drizzle around cup gets sugar_free_caramel drizzle",
+        "triggers": ["lite_sugar_free_caramel_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_chocolate drizzle and extra_drizzle_around_cup gets sugar_free_chocolate drizzle",
+        "triggers": ["sugar_free_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "extra sugar_free_chocolate drizzle and extra_drizzle_around_cup gets sugar_free_chocolate drizzle",
+        "triggers": ["extra_sugar_free_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_chocolate drizzle and lite_drizzle around cup gets sugar_free_chocolate drizzle",
+        "triggers": ["sugar_free_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite sugar_free_chocolate drizzle and lite_drizzle around cup gets sugar_free_chocolate drizzle",
+        "triggers": ["lite_sugar_free_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_white chocolate drizzle and extra drizzle around cup gets sugar_free_white chocolate drizzle",
+        "triggers": ["sugar_free_white_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "extra sugar_free_white chocolate drizzle and extra drizzle around cup gets sugar_free_white chocolate drizzle",
+        "triggers": ["extra_sugar_free_white_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "sugar_free_white chocolate drizzle and lite drizzle around cup gets sugar_free_white chocolate drizzle",
+        "triggers": ["sugar_free_white_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "lite sugar_free_white chocolate drizzle and lite drizzle around cup gets sugar_free_white chocolate drizzle",
+        "triggers": ["lite_sugar_free_white_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "honey drizzle gets honey drizzle",
+        "triggers": ["honey_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["honey_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra honey drizzle gets extra honey drizzle",
+        "triggers": ["extra_honey_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["honey_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite honey drizzle gets lite honey drizzle",
+        "triggers": ["lite_honey_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["honey_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no honey drizzle gets no honey drizzle",
+        "triggers": ["no_honey_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["honey_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "picture perfect gets chocolate drizzle",
+        "triggers": ["picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra picture perfect gets extra chocolate drizzle",
+        "triggers": ["extra_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite picture perfect gets lite chocolate drizzle",
+        "triggers": ["lite_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no picture perfect gets no chocolate drizzle",
+        "triggers": ["no_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["chocolate_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "picture perfect gets caramel drizzle",
+        "triggers": ["picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra picture perfect gets extra caramel drizzle",
+        "triggers": ["extra_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite picture perfect gets lite caramel drizzle",
+        "triggers": ["lite_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no picture perfect gets no caramel drizzle",
+        "triggers": ["no_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["caramel_drizzle"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "picture perfect gets whip cream",
+        "triggers": ["picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no picture perfect gets no whip cream",
+        "triggers": ["no_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["whip_cream"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra picture perfect gets whip cream",
+        "triggers": ["extra_picture_perfect"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["whip_cream"],
+            "quantity": 1
+        }
+    },
+    
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and picture perfect gets sugar free chocolate driz",
+        "triggers": ["picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+     {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and picture perfect gets sugar free caramel driz",
+        "triggers": ["picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+
+     {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra picture perfect gets extra sugar free chocolate driz",
+        "triggers": ["extra_picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra picture perfect gets extra sugar free caramel driz",
+        "triggers": ["extra_picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite picture perfect gets lite sugar free chocolate driz",
+        "triggers": ["lite_picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite picture perfect gets lite sugar free caramel driz",
+        "triggers": ["lite_picture_perfect", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "picture perfect no whip gets chocolate drizzle",
+        "triggers": ["picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra picture perfect no whip gets extra chocolate drizzle",
+        "triggers": ["extra_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite picture perfect no whip gets lite chocolate drizzle",
+        "triggers": ["lite_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no picture perfect no whip gets no chocolate drizzle",
+        "triggers": ["no_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["chocolate_drizzle"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "picture perfect no whip gets caramel drizzle",
+        "triggers": ["picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra picture perfect no whip gets extra caramel drizzle",
+        "triggers": ["extra_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite picture perfect no whip gets lite caramel drizzle",
+        "triggers": ["lite_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no picture perfect no whip gets no caramel drizzle",
+        "triggers": ["no_picture_perfect_no_whip"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["caramel_drizzle"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and picture perfect no whip gets sugar free chocolate drizzle",
+        "triggers": ["picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and picture perfect no whip gets sugar free caramel drizzle",
+        "triggers": ["picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra picture perfect no whip gets extra sugar free chocolate drizzle",
+        "triggers": ["extra_picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra picture perfect no whip gets extra sugar free caramel drizzle",
+        "triggers": ["extra_picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite picture perfect no whip gets lite sugar free chocolate drizzle",
+        "triggers": ["lite_picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite picture perfect no whip gets lite sugar free caramel drizzle",
+        "triggers": ["lite_picture_perfect_no_whip", "sugar_free"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and chocolate drizzle gets sugar free chocolate drizzle",
+        "triggers": ["sugar_free", "chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra chocolate drizzle gets extra sugar free chocolate drizzle",
+        "triggers": ["sugar_free", "extra_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite chocolate drizzle gets lite sugar free chocolate drizzle",
+        "triggers": ["sugar_free", "lite_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and caramel drizzle gets sugar free caramel drizzle",
+        "triggers": ["sugar_free", "caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra caramel drizzle gets extra sugar free cararmel drizzle",
+        "triggers": ["sugar_free", "extra_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite caramel drizzle gets lite sugar free caramel drizzle",
+        "triggers": ["sugar_free", "lite_caramel_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and white chocolate drizzle gets sugar free white chocolate drizzle",
+        "triggers": ["sugar_free", "white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and extra white chocolate drizzle gets extra sugar free white chocolate drizzle",
+        "triggers": ["sugar_free", "extra_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sugar free and lite white chocolate drizzle gets lite sugar free white chocolate drizzle",
+        "triggers": ["sugar_free", "lite_white_chocolate_drizzle"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free chocolate drizzle removes chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "chocolate_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free and caramel drizzle removes caramel drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "caramel_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "caramel_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free white chocolate drizzle removes white chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "white_chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "white_chocolate_drizzle"
+    }
+    },
+
+     {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free lite_chocolate drizzle removes chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "lite_chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "chocolate_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free and lite_caramel drizzle removes caramel drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "lite_caramel_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "caramel_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free lite_white chocolate drizzle removes white chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "lite_white_chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "white_chocolate_drizzle"
+    }
+    },
+
+    
+     {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free extra_chocolate drizzle removes chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "extra_chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "chocolate_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free and extra_caramel drizzle removes caramel drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "extra_caramel_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "caramel_drizzle"
+    }
+    },
+    {
+    "type": "modifier",
+    "priority": 300,
+    "description": "sugar free extra_white chocolate drizzle removes white chocolate drizzle (sugar free driz added in seperate rule)",
+    "triggers": ["sugar_free", "extra_white_chocolate_drizzle"],
+    "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": "white_chocolate_drizzle"
+    }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free white chocolate drizzle with lite drizzle around cup gets 0.5",
+        "triggers": ["sugar_free", "white_chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free white chocolate drizzle with extra drizzle around cup gets 2",
+        "triggers": ["sugar_free", "white_chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_white_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free caramel drizzle with lite drizzle around cup gets 0.5",
+        "triggers": ["sugar_free", "caramel_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free caramel drizzle with extra drizzle around cup gets 2",
+        "triggers": ["sugar_free", "caramel_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_caramel_drizzle"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free chocolate drizzle with lite drizzle around cup gets 0.5",
+        "triggers": ["sugar_free", "chocolate_drizzle", "lite_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "sugar free chocolate drizzle with extra drizzle around cup gets 2",
+        "triggers": ["sugar_free", "chocolate_drizzle", "extra_drizzle_around_cup"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sugar_free_chocolate_drizzle"],
+            "quantity": 2
+        }
+    },
+    
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sour shot gets sour shot",
+        "triggers": ["sour_shot"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sour_shot"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra sour shot gets 2 sour shots",
+        "triggers": ["extra_sour_shot"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sour_shot"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite sour shot gets half sour shot",
+        "triggers": ["lite_sour_shot"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sour_shot"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sour shot gets no sour shots",
+        "triggers": ["no_sour_shot"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["sour_shot"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "sweet cream gets sweet cream",
+        "triggers": ["sweet_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sweet_cream"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra sweet cream gets sweet cream",
+        "triggers": ["extra_sweet_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sweet_cream"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite sweet cream gets sweet cream",
+        "triggers": ["lite_sweet_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["sweet_cream"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sweet cream gets no sweet cream",
+        "triggers": ["no_sweet_cream"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["sweet_cream"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "rebel shot gets rebel shot",
+        "triggers": ["rebel_shot"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["rebel_shot"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "blue raz poppin boba gets blue raz poppin boba",
+        "triggers": ["blue_raspberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["blue_raspberry_poppin_boba"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra blue raz poppin boba gets blue raz poppin boba",
+        "triggers": ["extra_blue_raspberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["blue_raspberry_poppin_boba"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite blue raz poppin boba gets blue raz poppin boba",
+        "triggers": ["lite_blue_raspberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["blue_raspberry_poppin_boba"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no blue raz poppin boba gets no blue raz poppin boba",
+        "triggers": ["no_blue_raspberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["blue_raspberry_poppin_boba"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "strawberry poppin boba gets strawberry poppin boba",
+        "triggers": ["strawberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["strawberry_poppin_boba"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra strawberry poppin boba gets strawberry poppin boba",
+        "triggers": ["extra_strawberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["strawberry_poppin_boba"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite strawberry poppin boba gets strawberry poppin boba",
+        "triggers": ["lite_strawberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["strawberry_poppin_boba"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no strawberry poppin boba gets no strawberry poppin boba",
+        "triggers": ["no_strawberry_poppin_boba"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["strawberry_poppin_boba"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "cinnamon_sprinks gets cinnamon_sprinks",
+        "triggers": ["cinnamon_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["cinnamon_sprinks"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra cinnamon_sprinks gets cinnamon_sprinks",
+        "triggers": ["extra_cinnamon_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["cinnamon_sprinks"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite cinnamon_sprinks gets cinnamon_sprinks",
+        "triggers": ["lite_cinnamon_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["cinnamon_sprinks"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no cinnamon_sprinks gets cinnamon_sprinks",
+        "triggers": ["no_cinnamon_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["cinnamon_sprinks"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "birthday_cake_sprinks gets birthday_cake_sprinks",
+        "triggers": ["birthday_cake_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["birthday_cake_sprinks"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_birthday_cake_sprinks gets birthday_cake_sprinks",
+        "triggers": ["extra_birthday_cake_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["birthday_cake_sprinks"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_birthday_cake_sprinks gets birthday_cake_sprinks",
+        "triggers": ["lite_birthday_cake_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["birthday_cake_sprinks"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_birthday_cake_sprinks gets no birthday_cake_sprinks",
+        "triggers": ["no_birthday_cake_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["birthday_cake_sprinks"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "raw_sugar_sprinks gets raw sugar sprinks",
+        "triggers": ["raw_sugar_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["raw_sugar_sprinks"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra raw_sugar_sprinks gets raw sugar sprinks",
+        "triggers": ["extra_raw_sugar_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["raw_sugar_sprinks"],
+            "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite raw_sugar_sprinks gets raw sugar sprinks",
+        "triggers": ["lite_raw_sugar_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "override",
+            "value": ["raw_sugar_sprinks"],
+            "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no raw_sugar_sprinks gets no raw sugar sprinks",
+        "triggers": ["no_raw_sugar_sprinks"],
+        "payload": {
+            "target": "topping",
+            "operation": "remove",
+            "value": ["raw_sugar_sprinks"]
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "Sugar_Packet gets 1 sugar packet",
+        "triggers": ["sugar_packet"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["sugar_packet"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "splenda gets 1 splenda ",
+        "triggers": ["splenda"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["splenda"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "equal gets 1 equal packet",
+        "triggers": ["equal_packet"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["equal_packet"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "stevia gets 1 stevia",
+        "triggers": ["stevia"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["stevia"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "soda and party_works gets whip",
+        "triggers": ["party_works", "soda"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["whip_cream"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "soda and party_works gets cream",
+        "triggers": ["party_works", "soda"],
+        "payload": {
+            "target": "milk_adds",
+            "operation": "add",
+            "value": ["kickme_milk"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "chai and party_works gets whip cream",
+        "triggers": ["party_works", "chai"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["whip_cream"],
+            "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "chai and party_works gets cinnamon sprinks",
+        "triggers": ["party_works", "chai"],
+        "payload": {
+            "target": "topping",
+            "operation": "add",
+            "value": ["cinnamon_sprinks"],
+            "quantity": 1
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "double torture gets +2 shots",
+        "triggers": ["double_torture"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "iced 9-1-1 gets 6 shots",
+        "triggers": ["iced", "911"],
+        "payload": {
+            "target": "shots",
+            "operation": "set",
+            "value": 6
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "hot 9-1-1 gets 6 shots",
+        "triggers": ["hot", "911"],
+        "payload": {
+            "target": "shots",
+            "operation": "set",
+            "value": 6
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "blended 9-1-1 gets 2 shots",
+        "triggers": ["freeze", "911"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "carburEtor 9-1-1 gets 6 shots",
+        "triggers": ["carburetor", "911"],
+        "payload": {
+            "target": "shots",
+            "operation": "set",
+            "value": 6
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "carburAtor 9-1-1 gets 6 shots",
+        "triggers": ["carburator", "911"],
+        "payload": {
+            "target": "shots",
+            "operation": "set",
+            "value": 6
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 240,
+        "description": "freeze gets 0 shots by default - rule needed because mocha in mocha freeze sets coffee",
+        "triggers": ["freeze"],
+        "payload": {
+            "target": "shots",
+            "operation": "override",
+            "value": 0
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "extra_shot gets +1 shot",
+        "triggers": ["extra_shot"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "added_shot_charge gets +1 shot",
+        "triggers": ["added_shot_charge"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "mafia_style gets +2 shots",
+        "triggers": ["mafia_style"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "mafia_style gets +1 scoop",
+        "triggers": ["mafia_style"],
+        "payload": {
+            "target": "scoops",
+            "operation": "add",
+            "value": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "single_shot gets 1 shot",
+        "triggers": ["single_shot"],
+        "payload": {
+            "target": "shots",
+            "operation": "set",
+            "value": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "medium and cold_pour coffee gets +2 shots",
+        "triggers": ["cold_pour", "coffee", "medium"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 250,
+        "description": "large and cold_pour coffee gets +2 shots",
+        "triggers": ["cold_pour", "coffee", "large"],
+        "payload": {
+            "target": "shots",
+            "operation": "add",
+            "value": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 200,
+        "description": "cold brew gets no shots gets no shots",
+        "triggers": ["cold_brew"],
+        "payload": {
+            "target": "shots",
+            "operation": "override",
+            "value": 0
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no strawberry smoothie mix removes strawberry smoothie mix",
+        "triggers": ["no_strawberry_smoothie_mix"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "strawberry_smoothie_mix"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no mango smoothie mix removes mango smoothie mix",
+        "triggers": ["no_mango_smoothie_mix"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "mango_smoothie_mix"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no green apple smoothie mix removes green apple smoothie mix",
+        "triggers": ["no_apple_smoothie_mix"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "apple_smoothie_mix"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no golden eagle syrup - this is an impossible token but here for a test",
+        "triggers": ["no_golden_eagle_syrup"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "golden_eagle_syrup"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no dark chocolate removes dark chocolate",
+        "triggers": ["no_dark_chocolate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "dark_chocolate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no white chocolate removes white chocolate",
+        "triggers": ["no_white_chocolate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "white_chocolate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no caramel removes caramel",
+        "triggers": ["no_caramel"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "caramel"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no cane sugar removes cane sugar",
+        "triggers": ["no_cane_sugar_syrup"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "cane_sugar_syrup"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no honey removes honey",
+        "triggers": ["no_honey"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "honey"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no cinnamon removes cinnamon",
+        "triggers": ["no_cinnamon"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "cinnamon"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no cupcake removes cupcake",
+        "triggers": ["no_cupcake"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "cupcake"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no creme de menthe removes creme de menthe",
+        "triggers": ["no_creme_de_menthe"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "creme_de_menthe"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no banana removes banana",
+        "triggers": ["no_banana"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "banana"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no almond removes almond",
+        "triggers": ["no_almond_orgeat"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "almond_orgeat"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no blue raz removes blue raz",
+        "triggers": ["no_blue_raspberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "blue_raz"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no blackberry removes blackberry",
+        "triggers": ["no_blackberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "blackberry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no grapefruit removes grapefruit",
+        "triggers": ["no_grapefruit"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "grapefruit"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no lime removes lime",
+        "triggers": ["no_lime"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "lime"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no kiwi removes kiwi",
+        "triggers": ["no_kiwi"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "kiwi"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no orange removes orange",
+        "triggers": ["no_orange"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "orange"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no pineapple removes pineapple",
+        "triggers": ["no_pineapple"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "pineapple"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no passion fruit removes passion fruit",
+        "triggers": ["no_passion_fruit"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "passion_fruit"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no peach removes peach",
+        "triggers": ["no_peach"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "peach"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no pomegranate removes pomegranate",
+        "triggers": ["no_pomegranate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "pomegranate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no red raspberry removes red raspberry",
+        "triggers": ["no_red_raspberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "red_raspberry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no strawberry removes strawberry",
+        "triggers": ["no_strawberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "strawberry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no watermelon removes watermelon",
+        "triggers": ["no_watermelon"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "watermelon"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no peppermint removes peppermint",
+        "triggers": ["no_peppermint"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "peppermint"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no irish cream removes irish cream",
+        "triggers": ["no_irish_cream"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "irish_cream"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no vanilla removes vanilla",
+        "triggers": ["no_vanilla"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "vanilla"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no chocolate mac removes chocolate mac",
+        "triggers": ["no_chocolate_macadamia_nut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "chocolate_macadamia_nut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no hazelnut removes hazelnut",
+        "triggers": ["no_hazelnut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "hazelnut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no coconut removes coconut",
+        "triggers": ["no_coconut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "coconut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no salted caramel removes salted caramel",
+        "triggers": ["no_salted_caramel"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "salted_caramel"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no golden eagle removes golden eagle",
+        "triggers": ["no_golden_eagle"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "golden_eagle"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no lemon removes lemon",
+        "triggers": ["no_lemon_concentrate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "lemon_concentrate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no cherry removes cherry",
+        "triggers": ["no_cherry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "cherry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no pumplin removes pumpkin",
+        "triggers": ["no_pumpkin"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "pumpkin"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf_pumpkin removes pumpkin",
+        "triggers": ["no_sf_pumpkin"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_pumpkin"
+        }
+    },
+     {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sugar_free_pumpkin removes pumpkin",
+        "triggers": ["no_sugar_free_pumpkin"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_pumpkin"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf irish cream removes sf irish cream",
+        "triggers": ["no_sugar_free_irish_cream"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_irish_cream"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf vanilla removes sf vanilla",
+        "triggers": ["no_sugar_free_vanilla"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sf_vanilla"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf choc mac removes sf choc mac",
+        "triggers": ["no_sugar_free_chocolate_macadamia_nut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_chocolate_macadamia_nut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf coconut removes sf coconut",
+        "triggers": ["no_sugar_free_coconut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_coconut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf hazelnut removes sf hazelnut",
+        "triggers": ["no_sugar_free_hazelnut"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_hazelnut"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf caramel removes sf caramel",
+        "triggers": ["no_sugar_free_caramel"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_caramel"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf white chocolate removes sf white chocolate",
+        "triggers": ["no_sugar_free_white_chocolate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_white_chocolate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf chocolate removes sf chocolate",
+        "triggers": ["no_sugar_free_chocolate"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_chocolate"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf strawberry removes sf strawberry",
+        "triggers": ["no_sugar_free_strawberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_strawberry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf raspberry removes sf raspberry",
+        "triggers": ["no_sugar_free_raspberry"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_raspberry"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf peach removes sf peach",
+        "triggers": ["no_sugar_free_peach"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_peach"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf salted caramel removes sf salted caramel",
+        "triggers": ["no_sugar_free_salted_caramel"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_salted_caramel"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no sf peppermint removes sf peppermint",
+        "triggers": ["no_sugar_free_peppermint"],
+        "payload": {
+        "target": "flavor",
+        "operation": "remove",
+        "value": "sugar_free_peppermint"
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "blackberry_float gets blackberry_float",
+        "triggers": ["blackberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["blackberry_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_blackberry_float gets blackberry_float",
+        "triggers": ["extra_blackberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["blackberry_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_blackberry_float gets blackberry_float",
+        "triggers": ["lite_blackberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["blackberry_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_blackberry_float gets no blackberry_float",
+        "triggers": ["no_blackberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["blackberry_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "blue_raspberry_float gets blue_raspberry_float",
+        "triggers": ["blue_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["blue_raspberry_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_blue_raspberry_float gets blue_raspberry_float",
+        "triggers": ["extra_blue_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["blue_raspberry_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_blue_raspberry_float gets blue_raspberry_float",
+        "triggers": ["lite_blue_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["blue_raspberry_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_blue_raspberry_float gets no blue_raspberry_float",
+        "triggers": ["no_blue_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["blue_raspberry_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "cherry_float gets cherry_float",
+        "triggers": ["cherry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["cherry_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_cherry_float gets cherry_float",
+        "triggers": ["extra_cherry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["cherry_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_cherry_float gets cherry_float",
+        "triggers": ["lite_cherry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["cherry_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_cherry_float gets no cherry_float",
+        "triggers": ["no_cherry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["cherry_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "coconut_float gets coconut_float",
+        "triggers": ["coconut_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["coconut_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_coconut_float gets coconut_float",
+        "triggers": ["extra_coconut_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["coconut_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_coconut_float gets coconut_float",
+        "triggers": ["lite_coconut_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["coconut_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_coconut_float gets no coconut_float",
+        "triggers": ["no_coconut_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["coconut_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lavender_float gets lavender_float",
+        "triggers": ["lavender_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["lavender_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_lavender_float gets lavender_float",
+        "triggers": ["extra_lavender_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["lavender_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_lavender_float gets lavender_float",
+        "triggers": ["lite_lavender_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["lavender_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_lavender_float gets no lavender_float",
+        "triggers": ["no_lavender_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["lavender_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "mango_float gets mango_float",
+        "triggers": ["mango_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["mango_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_mango_float gets mango_float",
+        "triggers": ["extra_mango_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["mango_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_mango_float gets mango_float",
+        "triggers": ["lite_mango_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["mango_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_mango_float gets no mango_float",
+        "triggers": ["no_mango_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["mango_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "peach_float gets peach_float",
+        "triggers": ["peach_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["peach_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_peach_float gets peach_float",
+        "triggers": ["extra_peach_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["peach_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_peach_float gets peach_float",
+        "triggers": ["lite_peach_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["peach_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_peach_float gets no peach_float",
+        "triggers": ["no_peach_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["peach_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "pomegranate_float gets pomegranate_float",
+        "triggers": ["pomegranate_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["pomegranate_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_pomegranate_float gets pomegranate_float",
+        "triggers": ["extra_pomegranate_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["pomegranate_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_pomegranate_float gets pomegranate_float",
+        "triggers": ["lite_pomegranate_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["pomegranate_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_pomegranate_float gets no pomegranate_float",
+        "triggers": ["no_pomegranate_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["pomegranate_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "raspberry_float gets raspberry_float",
+        "triggers": ["raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["raspberry_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_raspberry_float gets raspberry_float",
+        "triggers": ["extra_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["raspberry_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_raspberry_float gets raspberry_float",
+        "triggers": ["lite_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["raspberry_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_raspberry_float gets no raspberry_float",
+        "triggers": ["no_raspberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["raspberry_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "strawberry_float gets strawberry_float",
+        "triggers": ["strawberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["strawberry_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_strawberry_float gets strawberry_float",
+        "triggers": ["extra_strawberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["strawberry_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_strawberry_float gets strawberry_float",
+        "triggers": ["lite_strawberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["strawberry_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_strawberry_float gets no strawberry_float",
+        "triggers": ["no_strawberry_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["strawberry_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "unicorn_blood_float gets unicorn_blood_float",
+        "triggers": ["unicorn_blood_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["unicorn_blood_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_unicorn_blood_float gets unicorn_blood_float",
+        "triggers": ["extra_unicorn_blood_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["unicorn_blood_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_unicorn_blood_float gets unicorn_blood_float",
+        "triggers": ["lite_unicorn_blood_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["unicorn_blood_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_unicorn_blood_float gets no unicorn_blood_float",
+        "triggers": ["no_unicorn_blood_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["unicorn_blood_float"]
+        }
+    },
+
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "watermelon_float gets watermelon_float",
+        "triggers": ["watermelon_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["watermelon_float"],
+        "quantity": 1
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "extra_watermelon_float gets watermelon_float",
+        "triggers": ["extra_watermelon_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "add",
+        "value": ["watermelon_float"],
+        "quantity": 2
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "lite_watermelon_float gets watermelon_float",
+        "triggers": ["lite_watermelon_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "override",
+        "value": ["watermelon_float"],
+        "quantity": 0.5
+        }
+    },
+    {
+        "type": "modifier",
+        "priority": 90,
+        "description": "no_watermelon_float gets no watermelon_float",
+        "triggers": ["no_watermelon_float"],
+        "payload": {
+        "target": "topping",
+        "operation": "remove",
+        "value": ["watermelon_float"]
+        }
+    }
+
+
+]
