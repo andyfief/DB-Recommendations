@@ -43,9 +43,9 @@ A conversational drink recommendation system for Dutch Bros Coffee. Customers de
 
 The rule engine (`backend/lib/engine.py` → `process_order()`) is what converts an ingredient token dict — e.g. `{"caramelizer": 1, "oat_milk": 1}` — into a fully structured `DrinkObject`. It runs up to five passes until the ingredient set stabilizes:
 
-1. **Classify** — Tokens imply other tokens. "caramelizer" implies caramel + vanilla; "freeze" implies ice. Fires classification rules until no new tokens are added.
-2. **Profile** — Selects a drink profile (size/intensity characteristics) based on priority rules.
-3. **Assign** — Populates ingredient roles: `flavors`, `toppings`, `milk`, `base`, `coffee`. Quantity operators (e.g. "2x chocolate") are respected.
+1. **Classify** — Tokens imply other tokens. "caramelizer" implies mocha; "freeze" implies blended. Fires classification rules until no new tokens are added.
+2. **Profile** — Selects a number-of-scoops profile for a drink. ie shakes get 1234 profile, as their default scoop counts are 1, 2, 3, and 4 for Kids->Large.
+3. **Assign** — Populates ingredient roles: `flavors`, `toppings`, `milk`, `base`, `coffee`. Quantity operators (e.g. "2 chocolate") are respected.
 4. **Quantity** — Sets shot and scoop counts via set/min/max rules.
 5. **Modifier** — Post-assignment tweaks: add, remove, multiply, or override ingredients.
 
