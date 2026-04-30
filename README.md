@@ -205,6 +205,7 @@ Calls OpenAI with `final_system.txt`. Always receives the user's original query,
 ---
 
 ## TODOs
+- Running the ingredient parser on nearest neighbors from the vector DB is a waste of compute. These are already in the database and unmodified, we can cache their drink objects.
 
 - **`backend/prompts/drink_knowledge.txt`**: Replace the placeholder ingredient list with live data derived from `DrinkBuilder/rules/assignments.json` and `DrinkBuilder/data/ingredients.csv` so the modifier LLM only uses real ingredients.
 
