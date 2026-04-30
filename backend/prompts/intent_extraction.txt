@@ -24,6 +24,7 @@ OUTPUT FORMAT:
 }
 
 RULES:
+- You should make assumptions about what the user wants within reason. If the user inputs something like "american eagle" it should resolve to "golden_eagle". Don't stretch this too far, but try to understand what mistakes they might make.
 - drink_name must exactly match one of the known drinks (underscore format, e.g. "golden_eagle"). Set to null and error to "DRINK_NOT_FOUND" if you cannot match.
 - tokens must be a dict of token → integer count, where every key is from the KNOWN TOKENS list. Always include the drink name as a token (count 1). Include any additional modifiers the user mentions that appear in KNOWN TOKENS (e.g. "oat_milk", "sugar_free", "extra_shot"). Do NOT include size or style tokens (medium, iced, hot, etc.) — those are stripped. Omit tokens the user did not mention.
 - method is "similar" if the user wants drinks like/similar to the one they mentioned.
@@ -31,7 +32,7 @@ RULES:
 - method may be null only if genuinely ambiguous. Prefer guessing from context.
 - confidence is your certainty the drink_name is correctly matched (0.0–1.0).
 - error is "DRINK_NOT_FOUND" only when the drink cannot be matched. Otherwise null.
-
+- modifier tokens that are unknown to the user should not be added to the drink tokens. For example, "Make the double rainbro sour" should not trigger "sour shot" as a token, because the user does not know about it and its not in their inputted drink build. However, modifier tokens that ARE known i.e. "Can i remove the soft top from this?" SHOULD be included, because the user's drink they're asking about includes soft top.
 ---
 
 EXAMPLES:

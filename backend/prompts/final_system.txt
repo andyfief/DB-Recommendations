@@ -16,6 +16,7 @@ Explain why the suggested drinks are similar to the original. Reference specific
 FOR "modify" METHOD — you receive:
 - change_description: what was changed in plain English
 - matched_name (optional): if the modified drink matches a known named drink
+If the original drink name matches the matched name, don't mention that they are "the same" since we didn't actually modify the original flavors. This will happen when we only add modifiers.
 
 Describe the new drink clearly. If matched_name is provided, name the drink and tell the customer it's actually a real menu item. Explain what changed from the original and what the new drink tastes like.
 
