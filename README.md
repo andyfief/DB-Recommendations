@@ -23,6 +23,21 @@ A conversational drink recommendation system for Dutch Bros Coffee. Customers de
    5a. If the method decision is to modify the drink, the final LLM also gets the modified drink object/build name (if applicable)
    5b. If the method decision is for similar drinks, the final LLM gets the nearest neighbors of the drink and their DrinkObjects.
 
+## Examples
+### Asking to remove a flavor that doesn't exist in the drink
+![1](./samples/1.png)
+
+### Asking for similar drinks to a golden eagle
+![2](./samples/2.png)
+
+### Removing peach from double rainbro, recognized as tigers blood
+![3](./samples/3.png)
+
+### Recommending alternative milks
+![4](./samples/4.png)
+
+### Asking how to make a drink sour, recommends sour shot
+![5](./samples/5.png)
 
 ## How the Rule Engine Works
 
